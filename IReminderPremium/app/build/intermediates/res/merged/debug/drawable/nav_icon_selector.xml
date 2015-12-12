@@ -5,4 +5,4 @@
     <item android:drawable="@drawable/ic_action_label_grey" android:state_activated="false"/>
     <item android:drawable="@drawable/label_primary" android:state_pressed="true"/>
     
-</selector><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/drawable/nav_icon_selector.xml -->
+</selector><!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/drawable/nav_icon_selector.xml -->

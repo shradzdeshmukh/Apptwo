@@ -5,4 +5,4 @@
     <item android:state_pressed="true" android:color="@color/accent"/>
     <item android:state_activated="false" android:color="@color/black"/>
 
-</selector><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/drawable-v11/nav_list_text_selector.xml -->
+</selector><!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/drawable-v11/nav_list_text_selector.xml -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-ru/util_strings.xml -->
     <eat-comment/>
     <string-array name="category_list_titles">
          <item>личный</item>
@@ -23,7 +23,7 @@
         <item>Назначения</item>
         <item>другие</item>
     </string-array>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
     <eat-comment/>
     <string-array name="repeat_items">
         <item>Каждый день</item>
@@ -35,7 +35,7 @@
     <string name="No">Нет</string>
     <string name="Vibrate">звук</string>
     <string name="Yes">Да</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -56,7 +56,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
     <eat-comment/>
     <string name="action_settings">настройки</string>
     <string name="add_task_title">Добавить задачу</string>
@@ -77,10 +77,10 @@
     <string name="days_left">дней осталось:</string>
     <string name="delete">удалять</string>
     <string name="delete_all_repeat">Удалить все повторяющиеся задачи?</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-ru/util_strings.xml -->
     <eat-comment/>
     <string name="desc_list_item_icon">Item Icon</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
     <eat-comment/>
     <string name="description">заметка:</string>
     <string name="done">сделано</string>
@@ -122,10 +122,10 @@
     <string name="snooze">вздремнуть</string>
     <string name="sound">звук</string>
     <string name="sound_summary">Воспроизведение звука для новой задачи</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
     <eat-comment/>
     <string name="sync">Синхронизация</string>
     <string name="sync_msg">Синхронизировано вашу задачу с помощью Google</string>

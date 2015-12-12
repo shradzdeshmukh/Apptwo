@@ -7,4 +7,4 @@
         android:interpolator="@android:anim/fade_in"
         android:toAlpha="1" />
 
-</set><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/anim/activity_transition_out.xml -->
+</set><!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/anim/activity_transition_out.xml -->

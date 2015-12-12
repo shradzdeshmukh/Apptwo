@@ -10,4 +10,4 @@
     app:title="@string/app_name"
     app:titleTextAppearance="@style/toolbar_title_style" >
 
-</android.support.v7.widget.Toolbar><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/layout/toolbar.xml -->
+</android.support.v7.widget.Toolbar><!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/layout/toolbar.xml -->

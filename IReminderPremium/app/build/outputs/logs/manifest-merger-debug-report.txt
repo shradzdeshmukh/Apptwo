@@ -1,154 +1,154 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12
 	package
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:3:5-40
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:3:5-40
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:5:5-30
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:5:5-30
 	android:versionCode
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:design:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:9:9-38
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:8:9-35
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:11:5-81
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:11:5-81
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:12:5-66
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:12:5-66
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:12:22-63
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:12:22-63
 uses-permission#android.permission.READ_CALENDAR
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:13:5-72
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:13:5-72
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:13:22-69
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:13:22-69
 uses-permission#android.permission.WRITE_CALENDAR
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:14:5-73
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:14:5-73
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:14:22-70
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:14:22-70
 application
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:16:5-73:19
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [IReminderPremium:drawerLibrary:unspecified] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\IReminderPremium\drawerLibrary\unspecified\AndroidManifest.xml:5:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:design:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:16:5-73:19
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [IReminderPremium:drawerLibrary:unspecified] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\IReminderPremium\drawerLibrary\unspecified\AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.0] C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:20:9-41
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:20:9-41
 	android:allowBackup
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:18:9-35
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:18:9-35
 	android:icon
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:19:9-43
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:19:9-43
 	android:theme
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:21:9-40
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:21:9-40
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:17:9-37
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:17:9-37
 provider#com.cynozer.reminder_premium.contentproviders.TasksContentProvider
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:22:9-26:20
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:22:9-26:20
 	android:authorities
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:24:13-52
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:24:13-52
 	android:exported
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:25:13-36
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:23:13-94
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:23:13-94
 activity#com.cyno.reminder_premium.ui.SplashActivity
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:33:9-44:20
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:33:9-44:20
 	android:screenOrientation
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:37:13-49
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:37:13-49
 	android:label
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:36:13-45
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:36:13-45
 	android:excludeFromRecents
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:35:13-46
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:35:13-46
 	android:theme
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:38:13-71
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:38:13-71
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:34:13-46
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:34:13-46
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:39:13-43:29
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:39:13-43:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:40:17-69
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:40:17-69
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:40:25-66
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:40:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:42:17-77
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:42:17-77
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:42:27-74
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:42:27-74
 activity#com.cyno.reminder_premium.ui.MainActivity
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:45:9-47:51
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:45:9-47:51
 	android:launchMode
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:47:13-48
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:47:13-48
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:46:13-69
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:46:13-69
 activity#com.cyno.reminder_premium.ui.AlarmActivity
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:48:9-51:51
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:48:9-51:51
 	android:excludeFromRecents
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:50:13-46
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:50:13-46
 	android:theme
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:51:13-48
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:51:13-48
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:49:13-45
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:49:13-45
 service#com.cyno.reminder_premium.service.PremiumAlarmService
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:53:9-89
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:53:9-89
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:53:18-86
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:53:18-86
 receiver#com.cyno.reminder.recievers.AlarmSetter
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:55:9-59:20
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:55:9-59:20
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:55:19-73
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:55:19-73
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:56:13-58:29
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:56:13-58:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:57:17-79
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:57:17-79
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:57:25-76
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:57:25-76
 receiver#com.cyno.reminder.recievers.AlarmReciever
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:60:9-61:20
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:60:9-61:20
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:60:19-75
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:60:19-75
 activity#com.cyno.reminder_premium.ui.PlanDayActivity
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:63:9-66:20
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:63:9-66:20
 	android:label
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:65:13-60
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:65:13-60
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:64:13-72
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:64:13-72
 activity#com.cyno.reminder_premium.ui.SettingsPrefActivity
-ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:69:9-72:20
+ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:69:9-72:20
 	android:label
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:71:13-60
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:71:13-60
 	android:name
-		ADDED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:70:13-77
+		ADDED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:70:13-77
 android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-IMPLIED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12 reason: me.panavtec.drawableview has a targetSdkVersion < 4
+IMPLIED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12 reason: me.panavtec.drawableview has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_PHONE_STATE
-IMPLIED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12 reason: me.panavtec.drawableview has a targetSdkVersion < 4
+IMPLIED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12 reason: me.panavtec.drawableview has a targetSdkVersion < 4
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12 reason: me.panavtec.drawableview requested WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\app\src\main\AndroidManifest.xml:2:1-75:12 reason: me.panavtec.drawableview requested WRITE_EXTERNAL_STORAGE

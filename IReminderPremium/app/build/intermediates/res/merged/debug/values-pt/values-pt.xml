@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-pt/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-pt/util_strings.xml -->
     <eat-comment/>
     <string-array name="category_list_titles">
         <item>Pessoal</item>
@@ -23,7 +23,7 @@
         <item>Nomeações</item>
         <item>Outros</item>
     </string-array>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string-array name="repeat_items">
         <item>Todos os dias</item>
@@ -35,7 +35,7 @@
     <string name="No">Não</string>
     <string name="Vibrate">Som</string>
     <string name="Yes">sim</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-pt/values-pt.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-pt/values-pt.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Navegar para a página inicial"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
@@ -56,7 +56,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Compartilhar com"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Compartilhar com %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Recolher"</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Definições</string>
     <string name="add_task_title">Adicionar tarefa</string>
@@ -77,10 +77,10 @@
     <string name="days_left">Dias Esquerda:</string>
     <string name="delete">Excluir</string>
     <string name="delete_all_repeat">Apagar todas as tarefas repetitivas?</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-pt/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-pt/util_strings.xml -->
     <eat-comment/>
     <string name="desc_list_item_icon">Item Icon</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="description">Nota:</string>
     <string name="done">Feito</string>
@@ -122,10 +122,10 @@
     <string name="snooze">Dormitar</string>
     <string name="sound">Som</string>
     <string name="sound_summary">Reproduzir som para nova tarefa</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-pt/values-pt.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-pt/values-pt.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-pt/strings.xml -->
     <eat-comment/>
     <string name="sync">sincronização</string>
     <string name="sync_msg">Sincronizadas sua tarefa com o Google</string>

@@ -7,4 +7,4 @@
     <item android:drawable="@drawable/list_item_bg_pressed" android:state_checked="true"/>
     <item android:drawable="@drawable/list_item_bg_pressed" android:state_selected="true"/>
     
-</selector><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/drawable-v21/ripple_selector_tasks.xml -->
+</selector><!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/drawable-v21/ripple_selector_tasks.xml -->

@@ -7,4 +7,4 @@
         android:interpolator="@android:anim/accelerate_interpolator"
         android:toAlpha="1" />
 
-</set><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/anim/fade_in_small.xml -->
+</set><!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/anim/fade_in_small.xml -->

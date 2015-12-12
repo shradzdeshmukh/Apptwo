@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-de/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-de/util_strings.xml -->
     <eat-comment/>
     <string-array name="category_list_titles">
         <item>Persönlich</item>
@@ -23,7 +23,7 @@
         <item>Ausstattung</item>
         <item>Andere</item>
     </string-array>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-de/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-de/strings.xml -->
     <eat-comment/>
     <string-array name="repeat_items">
         <item>Jeden Tag</item>
@@ -35,7 +35,7 @@
     <string name="No">Nein</string>
     <string name="Vibrate">klingen</string>
     <string name="Yes">Ja</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
     <eat-comment/>
     <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Zur Startseite"</string>
     <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s: %2$s"</string>
@@ -56,7 +56,7 @@
     <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Freigeben für"</string>
     <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Freigeben für %s"</string>
     <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Minimieren"</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-de/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-de/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Einstellungen</string>
     <string name="add_task_title">Aufgabe hinzufügen</string>
@@ -77,10 +77,10 @@
     <string name="days_left">Verbleibende Tage:</string>
     <string name="delete">löschen</string>
     <string name="delete_all_repeat">Löschen Sie alle sich wiederholenden Aufgaben?</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-de/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-de/util_strings.xml -->
     <eat-comment/>
     <string name="desc_list_item_icon">Item Icon</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-de/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-de/strings.xml -->
     <eat-comment/>
     <string name="description">Hinweis:</string>
     <string name="done">Fix Und Fertig</string>
@@ -122,10 +122,10 @@
     <string name="snooze">Nickerchen</string>
     <string name="sound">klingen</string>
     <string name="sound_summary">Wiedergabe Sound für neue Aufgabe</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-de/values-de.xml -->
     <eat-comment/>
     <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-de/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values-de/strings.xml -->
     <eat-comment/>
     <string name="sync">Synchronisieren</string>
     <string name="sync_msg">Synchronisiert Ihre Aufgabe mit Google</string>

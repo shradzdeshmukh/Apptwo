@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="http://schemas.android.com/tools">
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/util_strings.xml -->
     <eat-comment/>
     <array name="category_list_icons">
         <item>@drawable/label_yellow</item>
@@ -56,7 +56,7 @@
         <item>Appointments</item>
         <item>Others</item>
     </string-array>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string-array name="repeat_items">
         <item>Everyday</item>
@@ -64,7 +64,7 @@
         <item>Every Month</item>
         <item>Every Year</item>
     </string-array>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/util_strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/util_strings_drawer.xml -->
     <eat-comment/>
     <array name="tools_grid_icons">
         <item>@drawable/ic_brush</item>
@@ -76,7 +76,7 @@
         <item>@drawable/ic_content_undo</item>
         <item>@drawable/ic_color_picker</item>
     </array>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
     <eat-comment/>
     <string-array name="tools_grid_titles">
         <item>Brush</item>
@@ -88,7 +88,7 @@
         <item>Undo</item>
         <item>Background</item>
     </string-array>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <attr format="reference" name="drawerArrowStyle"/>
     <attr format="dimension" name="height"/>
@@ -106,10 +106,10 @@
     <color name="abc_search_url_text_normal">#7fa87f</color>
     <color name="abc_search_url_text_pressed">@android:color/black</color>
     <color name="abc_search_url_text_selected">@android:color/black</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="accent">#e91e63</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="accent_material_dark">@color/material_deep_teal_200</color>
     <color name="accent_material_light">@color/material_deep_teal_500</color>
@@ -117,10 +117,10 @@
     <color name="background_floating_material_light">@android:color/white</color>
     <color name="background_material_dark">@color/material_grey_850</color>
     <color name="background_material_light">@color/material_grey_50</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="black">#000000</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="bright_foreground_disabled_material_dark">#80ffffff</color>
     <color name="bright_foreground_disabled_material_light">#80000000</color>
@@ -130,17 +130,17 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="cardview_dark_background">#FF202020</color>
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="counter_text_bg">#303F9F</color>
     <color name="counter_text_color">#FFFFFF</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>
     <color name="design_fab_shadow_mid_color">#14000000</color>
@@ -151,45 +151,45 @@
     <color name="design_fab_stroke_top_outer_color">#2EFFFFFF</color>
     <color name="design_snackbar_background_color">#323232</color>
     <color name="design_textinput_error_color">#FFDD2C00</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="dim_foreground_disabled_material_dark">#80bebebe</color>
     <color name="dim_foreground_disabled_material_light">#80323232</color>
     <color name="dim_foreground_material_dark">#ffbebebe</color>
     <color name="dim_foreground_material_light">#ff323232</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="divider">#B6B6B6</color>
     <color name="email_login_button">#FFFFFF</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/colors.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/colors.xml -->
     <eat-comment/>
     <color name="empty_list_background">#cccccc</color>
     <color name="empty_list_text">#c3c6c7</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="facebook_blue">#3b5998</color>
     <color name="facebook_blue_pressed">#58ACFA</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="foreground_material_dark">@android:color/white</color>
     <color name="foreground_material_light">@android:color/black</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="google_plus_pressed">#737373</color>
     <color name="google_plus_unpressed">#dd4b39</color>
     <color name="green">#1C9C1C</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="hint_color">#cccccc</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="hint_foreground_material_dark">@color/bright_foreground_disabled_material_dark</color>
     <color name="hint_foreground_material_light">@color/bright_foreground_disabled_material_light</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="icons">#FFFFFF</color>
     <color name="light_grey">#62eeeeee</color>
@@ -199,7 +199,7 @@
     <color name="list_item_title">#000000</color>
     <color name="logout_button">#DD4B39</color>
     <color name="logout_pressed">#CD3A26</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="material_blue_grey_800">#ff37474f</color>
     <color name="material_blue_grey_900">#ff263238</color>
@@ -213,29 +213,29 @@
     <color name="material_grey_800">#ff424242</color>
     <color name="material_grey_850">#ff303030</color>
     <color name="material_grey_900">#ff212121</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/colors_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/colors_drawer.xml -->
     <eat-comment/>
     <color name="nav_drawer_faded_background">#55444444</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="notes_yellow">#faec75</color>
     <color name="primary">#3F51B5</color>
     <color name="primary_dark">#303F9F</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="primary_light">#C5CAE9</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_material_dark">@color/material_grey_900</color>
     <color name="primary_material_light">@color/material_grey_100</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="primary_text">#212121</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="primary_text_default_material_dark">#ffffffff</color>
     <color name="primary_text_default_material_light">#de000000</color>
@@ -243,10 +243,10 @@
     <color name="primary_text_disabled_material_light">#39000000</color>
     <color name="ripple_material_dark">#33ffffff</color>
     <color name="ripple_material_light">#1f000000</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="secondary_text">#727272</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <color name="secondary_text_default_material_dark">#b3ffffff</color>
     <color name="secondary_text_default_material_light">#8a000000</color>
@@ -256,10 +256,10 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/colors_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/colors_drawer.xml -->
     <eat-comment/>
     <color name="top_drawer_bkgrnd">#AA000000</color>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/color.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/color.xml -->
     <eat-comment/>
     <color name="warn">#f44336</color>
     <color name="white">#FFFFFF</color>
@@ -313,7 +313,7 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
@@ -382,21 +382,21 @@
     <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
     <dimen name="abc_text_size_title_material">20sp</dimen>
     <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
     <dimen name="bottom_ellipsis_height">4dp</dimen>
     <dimen name="bottom_text_size">12sp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="cardview_compat_inset_shadow">1dp</dimen>
     <dimen name="cardview_default_elevation">2dp</dimen>
     <dimen name="cardview_default_radius">2dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens_drawer.xml -->
     <eat-comment/>
     <dimen name="color_picker_old_height">60dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="cw__default_day_size">44dp</dimen>
     <dimen name="cw__default_month_height">308dp</dimen>
@@ -406,13 +406,13 @@
     <dimen name="default_padding_3x">15dp</dimen>
     <dimen name="default_padding_4x">20dp</dimen>
     <dimen name="default_padding_bottom">8dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens_color_picker.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens_color_picker.xml -->
     <eat-comment/>
     <dimen name="default_padding_side">10dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="default_padding_top">8dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens_color_picker.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens_color_picker.xml -->
     <eat-comment/>
     <dimen name="default_preview_height">40dp</dimen>
     <dimen name="default_preview_image_height">36dp</dimen>
@@ -420,7 +420,7 @@
     <dimen name="default_slider_handler_radius">10dp</dimen>
     <dimen name="default_slider_height">36dp</dimen>
     <dimen name="default_slider_margin">4dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="design_appbar_elevation">4dp</dimen>
     <dimen name="design_fab_border_width">0.5dp</dimen>
@@ -450,15 +450,15 @@
     <dimen name="design_tab_scrollable_min_width">72dp</dimen>
     <dimen name="design_tab_text_size">14sp</dimen>
     <dimen name="design_tab_text_size_2line">12sp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="details_view_title_height">120dp</dimen>
     <dimen name="details_view_title_text_size">30sp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="disabled_alpha_material_dark" type="dimen">0.30</item>
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="emptylist_text_bottom_padding">100dp</dimen>
     <dimen name="floating_label">16sp</dimen>
@@ -466,23 +466,23 @@
     <dimen name="footer_size">50dp</dimen>
     <dimen name="g_plus_btn_text_size">15sp</dimen>
     <dimen name="g_plus_btn_width">200dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens_drawer.xml -->
     <eat-comment/>
     <dimen name="grid_default_height">300dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
     <item format="float" name="highlight_alpha_material_dark" type="dimen">0.20</item>
     <item format="float" name="highlight_alpha_material_light" type="dimen">0.12</item>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="inner_components_spacing">8dp</dimen>
     <dimen name="inner_padding_left">0dp</dimen>
     <dimen name="inner_padding_right">0dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="item_touch_helper_max_drag_scroll_per_frame">20dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="nav_drawer_item_height">48dp</dimen>
     <dimen name="nav_drawer_left_icon_width">25dp</dimen>
@@ -490,22 +490,22 @@
     <dimen name="nav_drawer_left_margin_title">24dp</dimen>
     <dimen name="nav_drawer_width">240dp</dimen>
     <dimen name="nav_list_div_height">1dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <dimen name="notification_large_icon_height">64dp</dimen>
     <dimen name="notification_large_icon_width">64dp</dimen>
     <dimen name="notification_subtext_size">12dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens_pref.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens_pref.xml -->
     <eat-comment/>
     <dimen name="preference_fragment_padding_bottom">0dp</dimen>
     <dimen name="preference_fragment_padding_side">16dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="profile_pic_width">150dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens_drawer.xml -->
     <eat-comment/>
     <dimen name="scribble_item_ht">200dp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens.xml -->
     <eat-comment/>
     <dimen name="spash_big_img_width">1000dp</dimen>
     <dimen name="subtitle">18sp</dimen>
@@ -514,7 +514,7 @@
     <dimen name="text_size_small">14sp</dimen>
     <dimen name="title">20sp</dimen>
     <dimen name="title_add">16sp</dimen>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
     <item name="action_bar_activity_content" type="id"/>
@@ -522,43 +522,43 @@
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
     <item name="home" type="id"/>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="progress_circular" type="id"/>
     <item name="progress_horizontal" type="id"/>
     <item name="split_action_bar" type="id"/>
     <item name="up" type="id"/>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <item name="view_offset_helper" type="id"/>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="abc_config_activityDefaultDur">220</integer>
     <integer name="abc_config_activityShortDur">150</integer>
     <integer name="abc_max_action_buttons">2</integer>
     <integer name="cancel_button_image_alpha">127</integer>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="design_snackbar_text_max_lines">2</integer>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/dimens_pref.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/dimens_pref.xml -->
     <eat-comment/>
     <integer name="preference_fragment_scrollbarStyle">0x02000000</integer>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <integer name="status_bar_notification_info_maxnum">999</integer>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/integers.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/integers.xml -->
     <eat-comment/>
     <integer name="undobar_hide_delay">5000</integer>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="Days_left">Days left</string>
     <string name="No">No</string>
     <string name="Vibrate">Vibrate</string>
     <string name="Yes">Yes</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_home_description_format">%1$s, %2$s</string>
@@ -579,7 +579,7 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with %s</string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="action_settings">Settings</string>
     <string name="add_task_title">Add Task</string>
@@ -587,35 +587,35 @@
     <string name="any">Do you have any</string>
     <string name="any_more">Do you have any more</string>
     <string name="app_name">Reminder</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="authority">com.cynozer.ireminder_premium.tasksprovider</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
     <eat-comment/>
     <string name="back_button_label">Back</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
     <eat-comment/>
     <string name="brush_size_text">Brush size</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="cancel">Cancel</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
     <eat-comment/>
     <string name="caption_string">Shared via</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/util_strings.xml -->
     <eat-comment/>
     <string name="cat_id">id</string>
     <string name="cat_type">type</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="character_counter_pattern" translatable="false">%1$d/%2$d</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/util_strings.xml -->
     <eat-comment/>
     <string name="clock">clk</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="color_category">Choose Color</string>
     <string name="color_summary">Change color of categories label</string>
@@ -629,10 +629,10 @@
     <string name="days_left">Days Left:</string>
     <string name="delete">Delete</string>
     <string name="delete_all_repeat">Delete all repeating tasks?</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/util_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/util_strings.xml -->
     <eat-comment/>
     <string name="desc_list_item_icon">Item Icon</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="description">Note:</string>
     <string name="done">Done</string>
@@ -643,16 +643,16 @@
     <string name="enter_title_error">Please enter title</string>
     <string name="error">Error</string>
     <string name="google_plus_signin">Enter with google plus</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
     <eat-comment/>
     <string name="grid_size_text">Grid spacing</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="hours_left">Hours left</string>
     <string name="hours_left_details">Hours left:</string>
     <string name="ic_delete">Delete</string>
     <string name="image">image</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
     <eat-comment/>
     <string name="key_alarm">alarm</string>
     <string name="key_daily_alarm_hour">hour</string>
@@ -663,7 +663,7 @@
     <string name="key_ringtone">ringtone</string>
     <string name="key_sound">sound</string>
     <string name="key_vibrate">vibrate</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="login">Login</string>
     <string name="logout">Logout</string>
@@ -671,10 +671,10 @@
     <string name="morning_alarm_title">Plan a day</string>
     <string name="name">Title:</string>
     <string name="new_task_alarm">You have a new reminder !!</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
     <eat-comment/>
     <string name="next_button_label">Next</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="no_play_services">You need google play services to login</string>
     <string name="no_tasks">No tasks in list</string>
@@ -682,10 +682,10 @@
     <string name="notification_summary">Alarms</string>
     <string name="notification_title">You have a new task</string>
     <string name="overdue">OVERDUED!!</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
     <eat-comment/>
     <string name="pick_color_title">Pick your color</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="plan_day_appointments">Do you have any appontments?</string>
     <string name="plan_day_appointments_more">Do you have any more appointment?</string>
@@ -696,12 +696,12 @@
     <string name="plan_day_msg">Touch to organise your day</string>
     <string name="plan_day_others">Anything else</string>
     <string name="plan_day_title">Lets plan your day</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
     <eat-comment/>
     <string name="premium_btn">Upgrade</string>
     <string name="premium_msg">Kindly upgrade to premium to use this feature</string>
     <string name="premium_title">Upgrade to premium</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="progress">Please wait</string>
     <string name="remind">Remind</string>
@@ -709,37 +709,37 @@
     <string name="repeat_dialog_msg">Do you want to repeat this task?</string>
     <string name="ringtone_summary">Select alarm tone</string>
     <string name="ringtone_title">Alarm tone</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_drawer.xml -->
     <eat-comment/>
     <string name="save_success">Your drawing has been saved</string>
     <string name="saved" ns1:ignore="MissingTranslation">Saved your drawing</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="settings">Settings</string>
     <string name="shop_hint">What do u want to shop?</string>
     <string name="signing_in">Logging in . Please wait</string>
     <string name="signing_out">Logging out . Please wait</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings_pref.xml -->
     <eat-comment/>
     <string name="skip_button_label">Skip</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="skip_login">Skip login</string>
     <string name="snooze">Snooze</string>
     <string name="sound">Sound</string>
     <string name="sound_summary">Play sound for new task</string>
     <string name="start_drawing">Start drawing</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="sync">Sync</string>
     <string name="sync_msg">Synced your task with google</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/id_strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/id_strings.xml -->
     <eat-comment/>
     <string name="tag_is_done">10</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/strings.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/strings.xml -->
     <eat-comment/>
     <string name="task_added">I will remind you</string>
     <string name="task_completed">Congrats !! Task completed</string>
@@ -752,13 +752,13 @@
     <string name="undone">Un Done</string>
     <string name="update_all_repeat">Update all repeating tasks?</string>
     <string name="vibrate_summary">Vibrate for new task</string>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
     <style name="Animation.AppCompat.DropDownUp" parent="Base.Animation.AppCompat.DropDownUp"/>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
         <item name="android:windowAnimationStyle">@null</item>
@@ -775,7 +775,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.AlertDialog.AppCompat" parent="android:Widget">
         <item name="android:layout">@layout/abc_alert_dialog_material</item>
@@ -1712,7 +1712,7 @@
         <item name="android:minWidth">56dp</item>
         <item name="android:scaleType">center</item>
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Base.Widget.Design.TabLayout" parent="android:Widget">
         <item name="tabMaxWidth">@dimen/design_tab_max_width</item>
@@ -1724,7 +1724,7 @@
         <item name="tabTextAppearance">@style/TextAppearance.Design.Tab</item>
         <item name="tabSelectedTextColor">?android:textColorPrimary</item>
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="CardView">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
@@ -1740,13 +1740,13 @@
     <style name="CardView.Light">
         <item name="cardBackgroundColor">@color/cardview_light_background</item>
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
         <item name="spinBars">true</item>
         <item name="color">@android:color/white</item>
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/styles_color_picker.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/styles_color_picker.xml -->
     <eat-comment/>
     <style name="PickerEditText">
 		<item name="android:layout_width">match_parent</item>
@@ -1756,7 +1756,7 @@
 		<item name="android:singleLine">true</item>
 		<item name="android:textSize">22sp</item>
 	</style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Platform.AppCompat" parent="android:Theme">
         <item name="android:windowNoTitle">true</item>
@@ -1958,7 +1958,7 @@
     </style>
     <style name="TextAppearance.AppCompat.Widget.Switch" parent="Base.TextAppearance.AppCompat.Widget.Switch"/>
     <style name="TextAppearance.AppCompat.Widget.TextView.SpinnerItem" parent="Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"/>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.Design.CollapsingToolbar.Expanded" parent="TextAppearance.AppCompat.Display1">
         <item name="android:textColor">?android:attr/textColorPrimary</item>
@@ -1984,7 +1984,7 @@
         <item name="android:textColor">?android:textColorSecondary</item>
         <item name="textAllCaps">true</item>
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/styles_calender.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/styles_calender.xml -->
     <eat-comment/>
     <style name="TextAppearance.MaterialCalendarWidget.Date" parent="android:TextAppearance.Small">
         <item name="android:textSize">12sp</item>
@@ -1996,7 +1996,7 @@
     <style name="TextAppearance.MaterialCalendarWidget.WeekDay" parent="android:TextAppearance.Small">
         <item name="android:textSize">12sp</item>
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="TextAppearance.StatusBar.EventContent" parent=""/>
     <style name="TextAppearance.StatusBar.EventContent.Info" parent=""/>
@@ -2129,7 +2129,7 @@
     <style name="Widget.AppCompat.TextView.SpinnerItem" parent="Base.Widget.AppCompat.TextView.SpinnerItem"/>
     <style name="Widget.AppCompat.Toolbar" parent="Base.Widget.AppCompat.Toolbar"/>
     <style name="Widget.AppCompat.Toolbar.Button.Navigation" parent="Base.Widget.AppCompat.Toolbar.Button.Navigation"/>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/design/23.1.0/res/values/values.xml -->
     <eat-comment/>
     <style name="Widget.Design.AppBarLayout" parent="android:Widget">
         <item name="elevation">@dimen/design_appbar_elevation</item>
@@ -2180,7 +2180,7 @@
         <item name="counterTextAppearance">@style/TextAppearance.Design.Counter</item>
         <item name="counterOverflowTextAppearance">@style/TextAppearance.Design.Counter.Overflow</item>
     </style>
-    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values/styles.xml -->
+    <!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="add_product_edittext">
         <item name="android:layout_marginLeft">@dimen/default_padding</item>

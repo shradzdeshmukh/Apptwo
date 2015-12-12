@@ -3,4 +3,4 @@
     android:color="@color/primary">
     <item android:id="@android:id/mask" android:drawable="@drawable/list_item"/>
     <item android:drawable="@drawable/ripple_selector"/>
-</ripple><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/drawable-v21/list_selector.xml -->
+</ripple><!-- From: file:/C:/Users/hp/Desktop/Advanced%20Computing/Git/Apptwo/IReminderPremium/app/src/main/res/drawable-v21/list_selector.xml -->
