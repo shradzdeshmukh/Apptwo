@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ko/util_strings.xml -->
+    <eat-comment/>
+    <array name="category_list_icons">
+        <item>@drawable/label_yellow</item>
+        <item>@drawable/label_brown</item>
+        <item>@drawable/label_light_blue</item>
+        <item>@drawable/label_magenta</item>
+        <item>@drawable/label_dark_yellow</item>
+        <item>@drawable/label_pink</item>
+        <item>@drawable/label_dark_green</item>
+    </array>
+    <string-array name="category_list_titles">
+        <item>개인의</item>
+        <item>생일</item>
+        <item>지폐</item>
+        <item>쇼핑</item>
+        <item>휴가</item>
+        <item>약속</item>
+        <item>기타</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>최대오고</item>
+        <item>다음 7 일간</item>
+        <item>모든 작업</item>
+        <item>개인의</item>
+        <item>생일</item>
+        <item>지폐</item>
+        <item>쇼핑</item>
+        <item>휴가</item>
+        <item>약속</item>
+        <item>기타</item>
+    </string-array>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string-array name="repeat_items">
+        <item>Everyday</item>
+        <item>Every Week</item>
+        <item>Every Month</item>
+        <item>Every Year</item>
+    </string-array>
+    <string name="Days_left">일 남아</string>
+    <string name="No">No</string>
+    <string name="Vibrate">소리</string>
+    <string name="Yes">Yes</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"홈 탐색"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"위로 탐색"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"옵션 더보기"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"완료"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"전체 보기"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"앱 선택"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"사용 안함"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"사용"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"검색..."</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"검색어 삭제"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"검색어"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"검색"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"검색어 보내기"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"음성 검색"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"공유 대상"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%s와(과) 공유"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"접기"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">설정</string>
+    <string name="add_task_title">작업 추가</string>
+    <string name="alarms">경보</string>
+    <string name="any">Do you have any</string>
+    <string name="any_more">Do you have any more</string>
+    <string name="app_name">조언</string>
+    <string name="cancel">취소</string>
+    <string name="color_category">Choose Color</string>
+    <string name="color_summary">Change color of categories label</string>
+    <string name="color_title">Categories color</string>
+    <string name="create">만들기</string>
+    <string name="customise_category">Customise categories</string>
+    <string name="customize_dialot_title">Customize your category</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="daily_alarm_title">Plan day Alarm time</string>
+    <string name="date">날짜:</string>
+    <string name="days_left">일 왼쪽:</string>
+    <string name="delete">삭제</string>
+    <string name="delete_all_repeat">Delete all repeating tasks?</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ko/util_strings.xml -->
+    <eat-comment/>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="description">주의:</string>
+    <string name="done">끝난</string>
+    <string name="edit">편집</string>
+    <string name="enter_desc">주의</string>
+    <string name="enter_description_error">메모를 입력하세요</string>
+    <string name="enter_title">이름</string>
+    <string name="enter_title_error">제목을 입력하세요</string>
+    <string name="error">Error</string>
+    <string name="google_plus_signin">구글에 입력 플러스</string>
+    <string name="hours_left">시간은 왼쪽</string>
+    <string name="hours_left_details">시간은 왼쪽:</string>
+    <string name="image">영상</string>
+    <string name="login">로그인</string>
+    <string name="logout">로그 아웃</string>
+    <string name="morning_alarm_summary">Show plan a day notification</string>
+    <string name="morning_alarm_title">Plan a day</string>
+    <string name="name">이름:</string>
+    <string name="new_task_alarm">새 알림이 !!</string>
+    <string name="no_play_services">You need google play services to login</string>
+    <string name="no_tasks">목록에 작업을하지</string>
+    <string name="notification">공고</string>
+    <string name="notification_summary">경보</string>
+    <string name="notification_title">새 작업을</string>
+    <string name="overdue">연체!!</string>
+    <string name="plan_day_appointments">Do you have any appontments?</string>
+    <string name="plan_day_appointments_more">Do you have any more appointment?</string>
+    <string name="plan_day_bills">Do you have pay any bills?</string>
+    <string name="plan_day_bills_more">Do you have to pay any more bills?</string>
+    <string name="plan_day_birthday">Do you have any birthdays today?</string>
+    <string name="plan_day_birthday_more">Do you have any more birthdays?</string>
+    <string name="plan_day_msg">Touch to organise your day</string>
+    <string name="plan_day_others">Anything else</string>
+    <string name="plan_day_title">Lets plan your day</string>
+    <string name="progress">Please wait</string>
+    <string name="remind">상기시킨다</string>
+    <string name="remind_summary">새 작업시킨다</string>
+    <string name="repeat_dialog_msg">Do you want to repeat this task?</string>
+    <string name="ringtone_summary">Select alarm tone</string>
+    <string name="ringtone_title">Alarm tone</string>
+    <string name="settings">설정</string>
+    <string name="shop_hint">What do u want to shop?</string>
+    <string name="signing_in">로그인. 기다려주십시오</string>
+    <string name="signing_out">로그 아웃. 기다려주십시오</string>
+    <string name="skip_login">로그인 건너 뛰기</string>
+    <string name="snooze">선잠</string>
+    <string name="sound">소리</string>
+    <string name="sound_summary">새로운 작업에 대한 사운드를 재생합니다</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ko/values-ko.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ko/strings.xml -->
+    <eat-comment/>
+    <string name="sync">Sync</string>
+    <string name="sync_msg">Synced your task with google</string>
+    <string name="task_added">난 당신을 생각 나게합니다</string>
+    <string name="task_completed">축하합니다! 작업 완료</string>
+    <string name="task_delete">작업 삭제</string>
+    <string name="task_pending">작업 보류로 표시</string>
+    <string name="time_back_selected">선택한 시간은 현재 시간보다 커야합니다</string>
+    <string name="title_activity_plan_day">PlanDayActivity</string>
+    <string name="toast_snooze">내가 곧 당신을 다시 생각 나게합니다</string>
+    <string name="today"> today? </string>
+    <string name="undone">Un Done</string>
+    <string name="update_all_repeat">Update all repeating tasks?</string>
+    <string name="vibrate_summary">새 작업 진동</string>
+</resources>

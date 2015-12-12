@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Предстоящие</item>
+        <item>Следующие 7 дней</item>
+        <item >Все задачи</item>
+        <item>личный</item>
+        <item>Дни рождения</item>
+        <item>банкноты</item>
+        <item>покупка товаров</item>
+        <item>каникулы</item>
+        <item>Назначения</item>
+        <item>другие</item>
+    </string-array>
+
+    
+
+    <string-array name="category_list_titles">
+         <item>личный</item>
+        <item>Дни рождения</item>
+        <item>банкноты</item>
+        <item>покупка товаров</item>
+        <item>каникулы</item>
+        <item>Назначения</item>
+        <item>другие</item>
+    </string-array>
+
+
+</resources>

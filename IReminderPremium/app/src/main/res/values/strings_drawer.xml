@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <string name="saved" tools:ignore="MissingTranslation">Saved your drawing</string>
+    <string name="brush_size_text">Brush size</string>
+    <string name="grid_size_text">Grid spacing</string>
+    <string name="pick_color_title">Pick your color</string>
+    <string name="save_success">Your drawing has been saved</string>
+    <string name="caption_string">Shared via</string>
+    
+    
+    
+    
+     <string-array name="tools_grid_titles">
+        <item>Brush</item>
+        <item>Eraser</item>
+        <item>Grid</item>
+        <item>Color</item>
+        <item>Save</item>
+        <item>Clear</item>
+        <item>Undo</item>
+        <item>Background</item>
+    </string-array>
+    
+     
+     
+     <!-- new strings  -->
+       <string name="premium_title">Upgrade to premium</string>
+       <string name="premium_msg">Kindly upgrade to premium to use this feature</string>
+       <string name="premium_btn">Upgrade</string>
+     
+
+</resources>

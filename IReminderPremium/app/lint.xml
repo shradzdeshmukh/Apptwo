@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lint>
+    <issue id="Instantiatable" severity="ignore" />
+    <issue id="MissingTranslation" severity="ignore" />
+    <issue id="NewApi">
+        <ignore path="res/values/styles.xml" />
+        <ignore path="src/com/cyno/reminder/ui/FragmentChangeCatColor.java" />
+        <ignore path="src/com/cynozer/ireminder/calender/MonthView.java" />
+        <ignore path="src/com/cynozer/ireminder/timepicker/Utils.java" />
+    </issue>
+    <issue id="RtlHardcoded" severity="ignore" />
+</lint>

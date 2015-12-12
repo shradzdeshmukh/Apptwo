@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Ritornassi presto</item>
+        <item>Prossimi 7 giorni</item>
+        <item >Tutte le attività</item>
+        <item>Personale</item>
+        <item>Compleanni</item>
+        <item>Banconote</item>
+        <item>Shopping</item>
+        <item>Ferie</item>
+        <item>Appuntamenti</item>
+        <item>Altrui</item>
+    </string-array>
+
+
+    <string-array name="category_list_titles">
+        <item>Personale</item>
+        <item>Compleanni</item>
+        <item>Banconote</item>
+        <item>Shopping</item>
+        <item>Ferie</item>
+        <item>Appuntamenti</item>
+        <item>Altrui</item>
+    </string-array>
+
+
+</resources>

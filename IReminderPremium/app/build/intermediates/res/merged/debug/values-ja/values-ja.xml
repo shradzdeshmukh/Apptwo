@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ja/util_strings.xml -->
+    <eat-comment/>
+    <string-array name="category_list_titles">
+        <item>個人的な</item>
+        <item>誕生日</item>
+        <item>札</item>
+        <item>ショッピング</item>
+        <item>休日</item>
+        <item>予定</item>
+        <item>他人</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>Upcomming</item>
+        <item>次の7日間</item>
+        <item>全てのタスク</item>
+        <item>個人的な</item>
+        <item>誕生日</item>
+        <item>札</item>
+        <item>ショッピング</item>
+        <item>休日</item>
+        <item>予定</item>
+        <item>他人</item>
+    </string-array>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string-array name="repeat_items">
+        <item>Everyday</item>
+        <item>Every Week</item>
+        <item>Every Month</item>
+        <item>Every Year</item>
+    </string-array>
+    <string name="Days_left">日左</string>
+    <string name="No">No</string>
+    <string name="Vibrate">サウンド</string>
+    <string name="Yes">Yes</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"ホームへ移動"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s、%2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s、%2$s、%3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"上へ移動"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"その他のオプション"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完了"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"すべて表示"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"アプリの選択"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"検索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"検索キーワードを削除"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"検索キーワード"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"検索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"検索キーワードを送信"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"音声検索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"共有"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"%sと共有"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"折りたたむ"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">[設定]</string>
+    <string name="add_task_title">タスクを追加する</string>
+    <string name="alarms">警報器</string>
+    <string name="any">Do you have any</string>
+    <string name="any_more">Do you have any more</string>
+    <string name="app_name">リマインダー</string>
+    <string name="cancel">キャンセル</string>
+    <string name="color_category">Choose Color</string>
+    <string name="color_summary">Change color of categories label</string>
+    <string name="color_title">Categories color</string>
+    <string name="create">作る</string>
+    <string name="customise_category">Customise categories</string>
+    <string name="customize_dialot_title">Customize your category</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="daily_alarm_title">Plan day Alarm time</string>
+    <string name="date">日付:</string>
+    <string name="days_left">日左:</string>
+    <string name="delete">削除</string>
+    <string name="delete_all_repeat">Delete all repeating tasks?</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ja/util_strings.xml -->
+    <eat-comment/>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="description">注意:</string>
+    <string name="done">終わった</string>
+    <string name="edit">編集</string>
+    <string name="enter_desc">注意</string>
+    <string name="enter_description_error">ノートを入力してください。</string>
+    <string name="enter_title">タイトル</string>
+    <string name="enter_title_error">タイトルを入力してください</string>
+    <string name="error">Error</string>
+    <string name="google_plus_signin">Googleと入力してプラス</string>
+    <string name="hours_left">営業時間は、左</string>
+    <string name="hours_left_details">営業時間は、左:</string>
+    <string name="image">画像</string>
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="morning_alarm_summary">Show plan a day notification</string>
+    <string name="morning_alarm_title">Plan a day</string>
+    <string name="name">タイトル:</string>
+    <string name="new_task_alarm">新しいリマインダーを持っている！</string>
+    <string name="no_play_services">You need google play services to login</string>
+    <string name="no_tasks">リストにはタスクん</string>
+    <string name="notification">通知</string>
+    <string name="notification_summary">警報器</string>
+    <string name="notification_title">あなたは、新しいタスクを持っている</string>
+    <string name="overdue">期限を過ぎた!!</string>
+    <string name="plan_day_appointments">Do you have any appontments?</string>
+    <string name="plan_day_appointments_more">Do you have any more appointment?</string>
+    <string name="plan_day_bills">Do you have pay any bills?</string>
+    <string name="plan_day_bills_more">Do you have to pay any more bills?</string>
+    <string name="plan_day_birthday">Do you have any birthdays today?</string>
+    <string name="plan_day_birthday_more">Do you have any more birthdays?</string>
+    <string name="plan_day_msg">Touch to organise your day</string>
+    <string name="plan_day_others">Anything else</string>
+    <string name="plan_day_title">Lets plan your day</string>
+    <string name="progress">Please wait</string>
+    <string name="remind">リマインド</string>
+    <string name="remind_summary">新しいタスクのリマインド</string>
+    <string name="repeat_dialog_msg">Do you want to repeat this task?</string>
+    <string name="ringtone_summary">Select alarm tone</string>
+    <string name="ringtone_title">Alarm tone</string>
+    <string name="settings">[設定]</string>
+    <string name="shop_hint">What do u want to shop?</string>
+    <string name="signing_in">のログイン。お待ちください</string>
+    <string name="signing_out">ログアウト。お待ちください</string>
+    <string name="skip_login">ログインをスキップ</string>
+    <string name="snooze">居眠り</string>
+    <string name="sound">サウンド</string>
+    <string name="sound_summary">新しいタスクのためのサウンドを再生する</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ja/values-ja.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ja/strings.xml -->
+    <eat-comment/>
+    <string name="sync">Sync</string>
+    <string name="sync_msg">Synced your task with google</string>
+    <string name="task_added">私はあなたを思い出させます</string>
+    <string name="task_completed">おめでとう!!タスクに完了</string>
+    <string name="task_delete">タスクが削除</string>
+    <string name="task_pending">タスクが保留中としてマークされた</string>
+    <string name="time_back_selected">選択された時間が現在の時間よりも大きくなければならない</string>
+    <string name="title_activity_plan_day">PlanDayActivity</string>
+    <string name="toast_snooze">私はすぐにあなたを戻って思い出させます</string>
+    <string name="today"> today? </string>
+    <string name="undone">Un Done</string>
+    <string name="update_all_repeat">Update all repeating tasks?</string>
+    <string name="vibrate_summary">新しいタスクのバイブ</string>
+</resources>

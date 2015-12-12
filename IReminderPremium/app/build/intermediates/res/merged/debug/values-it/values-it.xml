@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-it/util_strings.xml -->
+    <eat-comment/>
+    <string-array name="category_list_titles">
+        <item>Personale</item>
+        <item>Compleanni</item>
+        <item>Banconote</item>
+        <item>Shopping</item>
+        <item>Ferie</item>
+        <item>Appuntamenti</item>
+        <item>Altrui</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>Ritornassi presto</item>
+        <item>Prossimi 7 giorni</item>
+        <item>Tutte le attività</item>
+        <item>Personale</item>
+        <item>Compleanni</item>
+        <item>Banconote</item>
+        <item>Shopping</item>
+        <item>Ferie</item>
+        <item>Appuntamenti</item>
+        <item>Altrui</item>
+    </string-array>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string-array name="repeat_items">
+        <item>Ogni giorno</item>
+        <item>Ogni settimana</item>
+        <item>Ogni mese</item>
+        <item>Ogni anno</item>
+    </string-array>
+    <string name="Days_left">Giorni sinistra</string>
+    <string name="No">No</string>
+    <string name="Vibrate">Vibrata</string>
+    <string name="Yes">sì</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Vai alla home page"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Vai in alto"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Altre opzioni"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Fine"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Visualizza tutte"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Scegli un\'applicazione"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"OFF"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ON"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Cerca…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Cancella query"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Query di ricerca"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Cerca"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Invia query"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Ricerca vocale"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Condividi con"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Condividi con %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Comprimi"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Impostazioni</string>
+    <string name="add_task_title">Aggiungi Task</string>
+    <string name="alarms">Allarmi</string>
+    <string name="any">Hai qualche</string>
+    <string name="any_more">Ne hai altre</string>
+    <string name="app_name">Promemoria</string>
+    <string name="color_category">Scegli colore</string>
+    <string name="color_summary">Cambia il colore delle categorie dell\'etichetta</string>
+    <string name="color_title">Le categorie a colori</string>
+    <string name="create">Creare</string>
+    <string name="customise_category">Personalizza le categorie</string>
+    <string name="customize_dialot_title">Personalizza il tuo categoria</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="daily_alarm_title">Piano di tempo di giorno dell\'allarme</string>
+    <string name="date">Data:</string>
+    <string name="days_left">Giorni sinistra:</string>
+    <string name="delete">Cancellare</string>
+    <string name="delete_all_repeat">Eliminare tutte le attività ricorrenti?</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-it/util_strings.xml -->
+    <eat-comment/>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="description">Nota:</string>
+    <string name="done">Fatto</string>
+    <string name="edit">Modifica</string>
+    <string name="enter_desc">Nota</string>
+    <string name="enter_description_error">Inserisci nota</string>
+    <string name="enter_title">Titolo</string>
+    <string name="enter_title_error">Inserisci il titolo</string>
+    <string name="error">errore</string>
+    <string name="google_plus_signin">Entrare con Google Plus</string>
+    <string name="hours_left">Ore sinistra</string>
+    <string name="hours_left_details">Ore sinistra:</string>
+    <string name="image">Immagine</string>
+    <string name="login">Accesso</string>
+    <string name="logout">Disconnessione</string>
+    <string name="morning_alarm_summary">Mostra piano di una notifica di giorno</string>
+    <string name="morning_alarm_title">Pianificare un giorno</string>
+    <string name="name">Titolo:</string>
+    <string name="new_task_alarm">Hai un nuovo promemoria !!</string>
+    <string name="no_play_services">Avete bisogno di google servizi di gioco per effettuare il login</string>
+    <string name="no_tasks">Nessuna attività in lista</string>
+    <string name="notification">Notifica</string>
+    <string name="notification_summary">Allarmi</string>
+    <string name="notification_title">Hai un nuova attività</string>
+    <string name="overdue">Scaduto!!</string>
+    <string name="plan_day_appointments">Avete appuntamenti?</string>
+    <string name="plan_day_appointments_more">Avete qualche altro appuntamento?</string>
+    <string name="plan_day_bills">Avete pagare le bollette?</string>
+    <string name="plan_day_bills_more">Dovete pagare le bollette più?</string>
+    <string name="plan_day_birthday">Hai qualche compleanno oggi?</string>
+    <string name="plan_day_birthday_more">Avete più i compleanni?</string>
+    <string name="plan_day_msg">Toccare per organizzare la vostra giornata</string>
+    <string name="plan_day_others">Nient\'altro</string>
+    <string name="plan_day_title">Andiamo a pianificare la vostra giornata</string>
+    <string name="progress">Attendere prego</string>
+    <string name="remind">Ricordare</string>
+    <string name="remind_summary">Ricordare per nuova attività</string>
+    <string name="repeat_dialog_msg">Vuoi ripetere questo compito?</string>
+    <string name="ringtone_summary">Seleziona tono di allarme</string>
+    <string name="ringtone_title">tono allarme</string>
+    <string name="settings">Impostazioni</string>
+    <string name="shop_hint">Che cosa u vuole fare shopping?</string>
+    <string name="signing_in">Accesso in. attendere prego</string>
+    <string name="signing_out">Disconnessione. attendere prego</string>
+    <string name="skip_login">Saltare accesso</string>
+    <string name="snooze">Sonnellino</string>
+    <string name="sound">Suono</string>
+    <string name="sound_summary">Riproduci suono per nuova attività</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-it/values-it.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">"999+"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-it/strings.xml -->
+    <eat-comment/>
+    <string name="sync">sincronizzare</string>
+    <string name="sync_msg">Sincronizzato la tua attività con Google</string>
+    <string name="task_added">Vi ricordo</string>
+    <string name="task_completed">Complimenti !! Task completato</string>
+    <string name="task_delete">Compito cancellato</string>
+    <string name="task_pending">Compito contrassegnato come sospeso</string>
+    <string name="time_back_selected">Tempo selezionato deve essere maggiore di ora corrente</string>
+    <string name="toast_snooze">Vi ricordo di nuovo presto</string>
+    <string name="today">oggi?</string>
+    <string name="undone">un Fatto</string>
+    <string name="update_all_repeat">Aggiornare tutte le attività ricorrenti?</string>
+    <string name="vibrate_summary">Vibrazione per nuova attività</string>
+</resources>

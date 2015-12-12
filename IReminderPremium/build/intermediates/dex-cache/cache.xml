@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-fd709b7020acf04db02a5b114f0749a2e8c1215a.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3f151e49c316a5ab2c065969a3b3b55ef9b393fc">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\classes-9600913a2825f669c6d3a72d4a9b0b671ed6d05d.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\classes-fd11906ca1595bf11ad3680b1784653cba5e3d92.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d96886efea7cc74fbb3abd0e3b51d5638fc57be0">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\classes-e4fdffe414ea0cf11d82fb85e10ce70fef8f2de7.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\libs\nineoldandroids-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59f19e43354d32de831379c23ce03bb259a4c2b7">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\nineoldandroids-2.4.0-91135bea22bfd3e2ce80bc57518c08522d0fa89f.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\Desktop\adt-bundle-windows-x86_64-20140702\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-d088bbdb5c00e44d06d2988741ac3b20f7d8d6b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\IReminderPremium\drawerLibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e6a227087fd046e609b6fd7f930c1b5f478ad58e">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\classes-93d2d846708937feeee1bd3fcc3c22f2c2b0cab1.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\classes-2267b1229a79af8c2236255f5248878a6e70a0de.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\exploded-aar\com.android.support\design\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19026d31f5d3ae868db81319671a642be5fbba08">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\classes-fe90b38dbef07303a445ea4a800fa4bcf75a79d1.jar" />
+    </item>
+    <item
+        jar="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\libs\universal-image-loader-1.9.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="C:\Users\hp\AndroidStudioProjects\IReminderPremium\app\build\intermediates\pre-dexed\debug\universal-image-loader-1.9.3-3950169a7e3de4fd5e1cf7642808c0553ae58ed0.jar" />
+    </item>
+
+</items>

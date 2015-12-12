@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lembrete</string>
+    <string name="action_settings">Definições</string>
+    <string name="login">Conecte-Se</string>
+    <string name="logout">Sair</string>
+    <string name="signing_in">Log in. por favor, aguarde</string>
+    <string name="signing_out">O encerramento da sessão. por favor, aguarde</string>
+    <string name="image">Imagem</string>
+    <string name="google_plus_signin">Entre com o Google Plus</string>
+    <string name="skip_login">Ir de login</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="enter_title">Título</string>
+    <string name="enter_desc">Nota</string>
+    <string name="add_task_title">Adicionar tarefa</string>
+    <string name="create">Criar</string>
+    <string name="enter_title_error">Digite título</string>
+    <string name="enter_description_error">Digite nota</string>
+    <string name="task_added">Vou lembrá-lo</string>
+    <string name="time_back_selected">Tempo seleccionado deve ser maior do que o tempo actual</string>
+    <string name="hours_left">Horas esquerda</string>
+    <string name="Days_left">Dias esquerda</string>
+    <string name="overdue">Vencido!!</string>
+    <string name="done">Feito</string>
+    <string name="name">Título:</string>
+    <string name="date">Data:</string>
+    <string name="days_left">Dias Esquerda:</string>
+    <string name="description">Nota:</string>
+    <string name="hours_left_details">Horas esquerda:</string>
+    <string name="edit">Editar</string>
+    <string name="delete">Excluir</string>
+    <string name="cancel">Cancelar</string>
+    <string name="snooze">Dormitar</string>
+    <string name="task_completed">Parabéns !! tarefa concluída</string>
+    <string name="task_delete">Task excluído</string>
+    <string name="task_pending">Tarefa marcado como pendente</string>
+    <string name="notification_title">Você tem uma nova tarefa</string>
+    <string name="toast_snooze">Vou lembrá-lo de volta em breve</string>
+    <string name="new_task_alarm">Você tem um novo lembrete !!</string>
+    <string name="alarms">Alarmes</string>
+    <string name="notification">Notificação</string>
+    <string name="notification_summary">Alarmes</string>
+    <string name="remind">Lembrar</string>
+    <string name="remind_summary">Relembre para nova tarefa</string>
+    <string name="sound">Som</string>
+    <string name="sound_summary">Reproduzir som para nova tarefa</string>
+    <string name="Vibrate">Som</string>
+    <string name="vibrate_summary">Vibrar para nova tarefa</string>
+    <string name="no_tasks">Não há tarefas em lista</string>
+    <string name="settings">Definições</string>
+    
+     <!-- new strings -->
+    <string name="undone">un Feito</string>
+    <string name="no_play_services">Você precisará do Google para acessar serviços de jogo</string>
+    <string name="sync">sincronização</string>
+    <string name="sync_msg">Sincronizadas sua tarefa com o Google</string>
+    <string name="repeat_dialog_msg">Você deseja repetir esta tarefa?</string>
+    <string name="Yes">sim</string>
+    <string name="No">Não</string>
+    <string name="delete_all_repeat">Apagar todas as tarefas repetitivas?</string>
+    <string name="update_all_repeat">Atualize todas as tarefas repetitivas?</string>
+    <string name="shop_hint">O que vc quiser fazer compras?</string>
+    <string name="plan_day_title">Vamos planejar o seu dia</string>
+    <string name="plan_day_msg">Toque para organizar o seu dia</string>
+    <string name="morning_alarm_title">Plano de um dia</string>
+    <string name="morning_alarm_summary">Mostrar plano de uma notificação dia</string>
+    <string name="daily_alarm_title">Plano de tempo do dia Alarm</string>
+    <string name="ringtone_summary">Escolha um tom de alarme</string>
+    <string name="ringtone_title">tom de alarme</string>
+    <string name="color_summary">Change color of categories label</string>
+    <string name="color_title">Categorias de cor</string>
+    <string name="color_category">Escolha Cor</string>
+    <string name="customize_dialot_title">Personalize a sua categoria</string>
+    <string name="progress">Por favor, aguarde</string>
+    <string name="customise_category">Personalize categorias</string>
+    <string name="any">Voc ~ e tem algum</string>
+    <string name="today"> hoje? </string>
+    <string name="any_more">Você tem alguma mais</string>
+    <string name="error">erro</string>
+    
+    <string-array name="repeat_items">
+        <item>Todos os dias</item>
+        <item>Toda semana</item>
+        <item>Todo mês</item>
+        <item>Todo ano</item>
+    </string-array>
+    
+    
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Upcomming</item>
+        <item>Próximos 7 dias</item>
+        <item >todas as tarefas</item>
+        <item>Pessoal</item>
+        <item>Aniversários</item>
+        <item>Notas</item>
+        <item>Compras</item>
+        <item>Feriados</item>
+        <item>Nomeações</item>
+        <item>Outros</item>
+    </string-array>
+
+   
+
+    <string-array name="category_list_titles">
+        <item>Pessoal</item>
+        <item>Aniversários</item>
+        <item>Notas</item>
+        <item>Compras</item>
+        <item>Feriados</item>
+        <item>Nomeações</item>
+        <item>Outros</item>
+    </string-array>
+
+
+</resources>

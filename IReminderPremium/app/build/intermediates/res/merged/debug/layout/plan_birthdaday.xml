@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.cyno.reminder_premium"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <android.support.v7.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res/com.cyno.reminder_premium"
+        android:id="@+id/toolbar"
+        style="@style/ToolBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@color/primary"
+        android:minHeight="?attr/actionBarSize"
+        app:subtitle="Lets plan your day"
+        app:title="Good Morning"
+        app:titleTextAppearance="@style/toolbar_title_style" >
+    </android.support.v7.widget.Toolbar>
+
+    <com.cyno.reminder.edittext.MaterialEditText
+        android:id="@+id/et_task_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/primary"
+        android:layout_below="@+id/toolbar"
+        android:hint="Whose Birthday?"
+        android:textSize="40dp"
+        style="@style/add_product_edittext"
+        android:textColor="@color/primary"
+        android:inputType="textPersonName"
+        app:floatingLabel="highlight"
+        app:baseColor="@color/primary"
+        app:floatingLabelText="@string/enter_title" />
+
+    <LinearLayout
+        android:id="@+id/actn_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/et_task_title"
+        android:gravity="right"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_white" />
+    </LinearLayout>
+    
+ 
+</RelativeLayout><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/layout/plan_birthdaday.xml -->

@@ -1,0 +1,58 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/root_splash"
+    android:layout_height="match_parent"
+    tools:context="com.cynozer.splashscreenmodule.SplashActivity" >
+
+    <ImageView
+        android:id="@+id/splash_imageview"
+        android:layout_width="@dimen/spash_big_img_width"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/image"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="@drawable/splash" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/splashscreen_text"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/image"
+            android:scaleType="centerCrop"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_launcher_white" />
+
+        <TextView
+            android:id="@+id/splashscreen_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp" />
+ 
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/default_padding_3x"
+            android:gravity="center"
+            android:padding="@dimen/default_padding_2x"
+            android:text="@string/cynozer"
+            android:textColor="@color/white"
+            android:textSize="@dimen/g_plus_btn_text_size"
+            android:visibility="visible" />
+    </RelativeLayout>
+
+</FrameLayout><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/layout/activity_splash.xml -->

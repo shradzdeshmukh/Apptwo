@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.cyno.reminder_premium"
+    android:layout_width="match_parent"
+    android:padding="@dimen/default_padding"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.cyno.reminder.edittext.MaterialEditText
+        android:id="@+id/et_task_title"
+        style="@style/add_product_edittext"
+        android:hint="@string/enter_title"
+        android:inputType="textPersonName"
+        app:floatingLabel="highlight"
+        app:floatingLabelText="@string/enter_title" />
+
+    <com.cyno.reminder.edittext.MaterialEditText
+        android:id="@+id/et_task_description"
+        style="@style/add_product_edittext"
+        android:hint="@string/enter_desc"
+        android:inputType="textMultiLine"
+        app:floatingLabel="highlight"
+        app:floatingLabelText="@string/enter_desc" >
+    </com.cyno.reminder.edittext.MaterialEditText>
+
+</LinearLayout><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/layout-v11/fragment_add_task.xml -->

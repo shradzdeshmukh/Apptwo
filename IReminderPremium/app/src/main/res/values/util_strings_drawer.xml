@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   
+
+    <array name="tools_grid_icons">
+        <item>@drawable/ic_brush</item>
+        <item>@drawable/ic_cut</item>
+        <item>@drawable/ic_grid</item>
+        <item>@drawable/ic_color_picker</item>
+        <item>@drawable/ic_save</item>
+        <item>@drawable/ic_clear</item>
+        <item>@drawable/ic_content_undo</item>
+        <item>@drawable/ic_color_picker</item>
+    </array>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.cyno.reminder_premium"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/top_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/tv_shopping_title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginBottom="-30dp"
+            android:background="@color/primary"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:paddingLeft="@dimen/default_padding_3x"
+            
+            android:paddingBottom="@dimen/default_padding"
+            android:text="Birthday Shopping"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large" />
+
+        <com.cyno.reminder.fab.ButtonFloat
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_marginRight="@dimen/default_padding_4x"
+            android:background="@color/accent"
+            materialdesign:iconDrawable="@drawable/ic_action_done" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/shop_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_view"
+        android:layout_below="@+id/top_layout"
+        android:stackFromBottom="true" >
+    </ListView>
+
+    <LinearLayout
+        android:id="@+id/bottom_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center|bottom"
+        android:orientation="horizontal"
+        android:visibility="visible" >
+
+        <com.cyno.reminder.edittext.MaterialEditText
+            android:id="@+id/shop_edittext"
+            style="@style/add_product_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="0.8"
+            android:hint="@string/shop_hint"
+            android:imeOptions="actionDone"
+            android:singleLine="true"
+            android:textColorHint="@color/accent"
+            app:floatingLabel="highlight"
+            app:floatingLabelText="@string/shop_hint" >
+        </com.cyno.reminder.edittext.MaterialEditText>
+
+        <ImageView
+            android:id="@+id/iv_shoppin_add_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_add_accent" />
+    </LinearLayout>
+
+</RelativeLayout>

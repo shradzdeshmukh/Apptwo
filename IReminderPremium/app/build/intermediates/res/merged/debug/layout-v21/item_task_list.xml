@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.cyno.reminder.swipelist.SwipeLayout xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    swipe:leftEdgeSwipeOffset="0dp"
+    swipe:rightEdgeSwipeOffset="0dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/accent"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_padding_3x"
+            android:layout_marginRight="@dimen/default_padding_3x"
+            android:contentDescription="@string/ic_delete"
+            android:src="@drawable/ic_delete" />
+
+        <ImageView
+            android:id="@+id/iv_done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_padding_3x"
+            android:layout_marginRight="@dimen/default_padding_3x"
+            android:contentDescription="@string/ic_delete"
+            android:src="@drawable/ic_action_done" />
+
+        <ImageView
+            android:id="@+id/iv_edt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_padding_3x"
+            android:layout_marginRight="@dimen/default_padding_3x"
+            android:contentDescription="@string/ic_delete"
+            android:src="@drawable/ic_edit" />
+
+        <ImageView
+            android:id="@+id/iv_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_padding_3x"
+            android:layout_marginRight="@dimen/default_padding_3x"
+            android:contentDescription="@string/ic_delete"
+            android:src="@drawable/ic_action_sync" />
+    </LinearLayout>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/rootview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="1dp"
+        android:background="@drawable/list_selector_tasks"
+        android:padding="@dimen/default_padding" >
+
+        <View
+            android:id="@+id/task_item_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="@dimen/default_padding_2x"
+            android:background="@drawable/circle_view"
+            android:padding="@dimen/default_padding_2x" />
+
+        <TextView
+            android:id="@+id/tv_item_task_list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_item_task_list_daysleft"
+            android:layout_toRightOf="@+id/task_item_image"
+            android:padding="@dimen/default_padding"
+            android:text="My Task"
+            android:textColor="@drawable/nav_list_text_selector"
+            android:textSize="@dimen/text_size_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_item_task_list_daysleft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/default_padding"
+            android:padding="@dimen/default_padding"
+            android:text="@string/Days_left"
+            android:textColor="@color/primary_dark"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/tv_item_task_list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_item_task_list_title"
+            android:layout_marginRight="@dimen/default_padding"
+            android:layout_toRightOf="@+id/task_item_image"
+            android:paddingBottom="@dimen/default_padding"
+            android:paddingLeft="@dimen/default_padding"
+            android:text="28 th march"
+            android:textColor="@drawable/nav_list_text_selector"
+            android:textSize="@dimen/text_size_small" />
+
+        <TextView
+            android:id="@+id/tv_item_task_list_days_left_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_item_task_list_date"
+            android:layout_alignLeft="@+id/tv_item_task_list_daysleft"
+            android:layout_alignTop="@+id/tv_item_task_list_date"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/default_padding"
+            android:text="5"
+            android:textColor="@color/primary_dark"
+            android:textSize="@dimen/text_size_small" />
+    </RelativeLayout>
+
+</com.cyno.reminder.swipelist.SwipeLayout><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/layout-v21/item_task_list.xml -->

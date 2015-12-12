@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Upcomming</item>
+        <item>次の7日間</item>
+        <item>全てのタスク</item>
+        <item>個人的な</item>
+        <item>誕生日</item>
+        <item>札</item>
+        <item>ショッピング</item>
+        <item>休日</item>
+        <item>予定</item>
+        <item>他人</item>
+    </string-array>
+
+
+    <string-array name="category_list_titles">
+        <item>個人的な</item>
+        <item>誕生日</item>
+        <item>札</item>
+        <item>ショッピング</item>
+        <item>休日</item>
+        <item>予定</item>
+        <item>他人</item>
+    </string-array>
+
+</resources>

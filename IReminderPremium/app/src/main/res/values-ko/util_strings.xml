@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>최대오고</item>
+        <item>다음 7 일간</item>
+        <item >모든 작업</item>
+        <item>개인의</item>
+        <item>생일</item>
+        <item>지폐</item>
+        <item>쇼핑</item>
+        <item>휴가</item>
+        <item>약속</item>
+        <item>기타</item>
+    </string-array>
+
+
+    <string-array name="category_list_titles">
+        <item>개인의</item>
+        <item>생일</item>
+        <item>지폐</item>
+        <item>쇼핑</item>
+        <item>휴가</item>
+        <item>약속</item>
+        <item>기타</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="category_list_icons">
+        <item>@drawable/label_yellow</item>
+        <item>@drawable/label_brown</item>
+        <item>@drawable/label_light_blue</item>
+        <item>@drawable/label_magenta</item>
+        <item>@drawable/label_dark_yellow</item>
+        <item>@drawable/label_pink</item>
+        <item>@drawable/label_dark_green</item>
+    </array>
+
+</resources>

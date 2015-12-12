@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomAttributes">
+
+        <!-- Color of ripple animation -->
+        <!--<attr name="rippleColor" format="color|reference" />-->
+        <!-- Speed of ripple animation -->
+        <attr name="rippleSpeed" format="float" />
+        <!-- indicate if the slider must show number indicator -->
+        <attr name="showNumberIndicator" format="boolean" />
+        <!-- in progress view indicate max value of progress -->
+        <attr name="max" format="integer" />
+        <!-- in progress view indicate min value of progress -->
+        <attr name="min" format="integer" />
+        <!-- in progress view indicate value of progress -->
+        <attr name="value" format="integer" />
+        <!-- in progress view indicate value of progress -->
+        <attr name="progress" format="integer" />
+        <attr name="ringWidth" format="dimension" />
+        <!-- in switche's view indicate state of view -->
+        <attr name="check" format="boolean" />
+        <attr name="checkBoxSize" format="dimension" />
+        <attr name="thumbSize" format="dimension" />
+        <!-- in float button indicate icon resource -->
+        <attr name="iconDrawable" format="integer" />
+        <!-- in button whitch contains drawable indicate icon resource -->
+        <attr name="iconSize" format="dimension" />
+        <!-- in float button indicate if must start with animation -->
+        <attr name="animate" format="boolean" />
+        <!-- set the border of the ripple frame -->
+        <attr name="rippleBorderRadius" format="float" />
+        <!-- if true, delays calls to OnClickListeners until ripple effect ends -->
+        <attr name="clickAfterRipple" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MaterialEditText">
+
+        <!-- The base color of the line and the texts. Default is black. -->
+        <attr name="baseColor" format="color" />
+        <!-- The highlight color of the line, and the floating label if the highlightFloatingLabel is true. -->
+        <attr name="primaryColor" format="color" />
+        <!-- How the floating label should be shown. Default is none -->
+        <attr name="floatingLabel">
+            <enum name="none" value="0" />
+            <enum name="normal" value="1" />
+            <enum name="highlight" value="2" />
+        </attr>
+        <!-- The color for when something is wrong.(e.g. exceeding max characters) -->
+        <attr name="errorColor" format="color" />
+        <!-- Min characters count limit. 0 means no limit. -->
+        <attr name="minCharacters" format="integer" />
+        <!-- max Characters count limit. 0 means no limit. -->
+        <attr name="maxCharacters" format="integer" />
+        <!-- Whether to show the bottom ellipsis in singleLine mode -->
+        <attr name="singleLineEllipsis" format="boolean" />
+        <!-- Reserved bottom text lines count, no matter if there is some helper/error text. -->
+        <attr name="minBottomTextLines" format="integer" />
+        <!-- Helper text at the bottom -->
+        <attr name="helperText" format="string" />
+        <!-- Helper text color -->
+        <attr name="helperTextColor" format="color" />
+        <!-- Font of the paint used to draw accent texts -->
+        <attr name="accentTypeface" format="string" />
+        <!-- Font used on view -->
+        <attr name="typeface" format="string" />
+        <!-- Custom float label text -->
+        <attr name="floatingLabelText" format="string" />
+        <!-- spacing between the main text and the floating label -->
+        <attr name="floatingLabelSpacing" format="dimension" />
+        <!-- Hide underline -->
+        <attr name="hideUnderline" format="boolean" />
+        <!-- Auto validate -->
+        <attr name="autoValidate" format="boolean" />
+        <!-- Left icon -->
+        <attr name="iconLeft" format="reference" />
+        <!-- Right icon -->
+        <attr name="iconRight" format="reference" />
+        <!-- Padding between icon(s) and the main area. 8dp by default. -->
+        <attr name="iconPadding" format="dimension" />
+        <!-- The floating label's text size. 12sp by default. -->
+        <attr name="floatingLabelTextSize" format="dimension" />
+        <!-- The bottom texts' size. 12sp by default. -->
+        <attr name="bottomTextSize" format="dimension" />
+        <!-- Always show the floating label, instead of animating it in/out. -->
+        <attr name="floatingLabelAlwaysShown" format="boolean" />
+        <!-- Always show the helper text, no matter if the edit text is focused. -->
+        <attr name="helperTextAlwaysShown" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="MaterialCalendarView">
+        <attr name="dateTextAppearance" format="reference" />
+        <attr name="weekDayTextAppearance" format="reference" />
+        <attr name="headerTextAppearance" format="reference" />
+        <attr name="arrowColor" format="color" />
+        <attr name="selectionColor" format="color" />
+        <attr name="showOtherDates" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="SwipeLayout">
+        <attr name="drag_edge">
+            <flag name="left" value="1" />
+            <flag name="right" value="2" />
+            <flag name="top" value="4" />
+            <flag name="bottom" value="8" />
+        </attr>
+        <attr name="leftEdgeSwipeOffset" format="dimension" />
+        <attr name="rightEdgeSwipeOffset" format="dimension" />
+        <attr name="topEdgeSwipeOffset" format="dimension" />
+        <attr name="bottomEdgeSwipeOffset" format="dimension" />
+        <attr name="show_mode" format="enum">
+            <enum name="lay_down" value="0" />
+            <enum name="pull_out" value="1" />
+        </attr>
+        <attr name="clickToClose" format="boolean" />
+    </declare-styleable>
+
+</resources>

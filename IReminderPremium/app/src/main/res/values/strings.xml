@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="authority">com.cynozer.ireminder_premium.tasksprovider</string>
+    <string name="app_name">Reminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="login">Login</string>
+    <string name="logout">Logout</string>
+    <string name="signing_in">Logging in . Please wait</string>
+    <string name="signing_out">Logging out . Please wait</string>
+    <string name="image">image</string>
+    <string name="google_plus_signin">Enter with google plus</string>
+    <string name="skip_login">Skip login</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="enter_title">Title</string>
+    <string name="enter_desc">Note</string>
+    <string name="add_task_title">Add Task</string>
+    <string name="create">Create</string>
+    <string name="enter_title_error">Please enter title</string>
+    <string name="enter_description_error">Please enter note</string>
+    <string name="task_added">I will remind you</string>
+    <string name="time_back_selected">Time selected should be greater than current time</string>
+    <string name="hours_left">Hours left</string>
+    <string name="Days_left">Days left</string>
+    <string name="overdue">OVERDUED!!</string>
+    <string name="done">Done</string>
+    <string name="name">Title:</string>
+    <string name="date">Date:</string>
+    <string name="days_left">Days Left:</string>
+    <string name="description">Note:</string>
+    <string name="hours_left_details">Hours left:</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="snooze">Snooze</string>
+    <string name="task_completed">Congrats !! Task completed</string>
+    <string name="task_delete">Task deleted</string>
+    <string name="task_pending">Task marked as pending</string>
+    <string name="notification_title">You have a new task</string>
+    <string name="toast_snooze">I will remind you back soon</string>
+    <string name="new_task_alarm">You have a new reminder !!</string>
+    <string name="alarms">Alarms</string>
+    <string name="notification">Notification</string>
+    <string name="notification_summary">Alarms</string>
+    <string name="remind">Remind</string>
+    <string name="remind_summary">Remind for new task</string>
+    <string name="sound">Sound</string>
+    <string name="sound_summary">Play sound for new task</string>
+    <string name="Vibrate">Vibrate</string>
+    <string name="vibrate_summary">Vibrate for new task</string>
+    <string name="no_tasks">No tasks in list</string>
+    <string name="settings">Settings</string>
+    <string name="ic_delete">Delete</string>
+
+    <!-- new strings -->
+    <string name="undone">Un Done</string>
+    <string name="no_play_services">You need google play services to login</string>
+    <string name="sync">Sync</string>
+    <string name="sync_msg">Synced your task with google</string>
+    <string name="title_activity_plan_day">PlanDayActivity</string>
+    <string name="repeat_dialog_msg">Do you want to repeat this task?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="delete_all_repeat">Delete all repeating tasks?</string>
+    <string name="update_all_repeat">Update all repeating tasks?</string>
+    <string name="shop_hint">What do u want to shop?</string>
+    <string name="plan_day_title">Lets plan your day</string>
+    <string name="plan_day_msg">Touch to organise your day</string>
+    <string name="morning_alarm_title">Plan a day</string>
+    <string name="morning_alarm_summary">Show plan a day notification</string>
+    <string name="daily_alarm_title">Plan day Alarm time</string>
+    <string name="ringtone_summary">Select alarm tone</string>
+    <string name="ringtone_title">Alarm tone</string>
+    <string name="plan_day_birthday">Do you have any birthdays today?</string>
+    <string name="plan_day_bills">Do you have pay any bills?</string>
+    <string name="plan_day_appointments">Do you have any appontments?</string>
+    <string name="plan_day_others">Anything else</string>
+    <string name="plan_day_birthday_more">Do you have any more birthdays?</string>
+    <string name="plan_day_bills_more">Do you have to pay any more bills?</string>
+    <string name="plan_day_appointments_more">Do you have any more appointment?</string>
+    <string name="color_summary">Change color of categories label</string>
+    <string name="color_title">Categories color</string>
+    <string name="color_category">Choose Color</string>
+    <string name="customize_dialot_title">Customize your category</string>
+    <string name="progress">Please wait</string>
+    <string name="customise_category">Customise categories</string>
+    <string name="any">Do you have any</string>
+    <string name="today"> today? </string>
+    <string name="any_more">Do you have any more</string>
+    <string name="error">Error</string>
+
+    <string name="start_drawing">Start drawing</string>
+
+
+    <string-array name="repeat_items">
+        <item>Everyday</item>
+        <item>Every Week</item>
+        <item>Every Month</item>
+        <item>Every Year</item>
+    </string-array>
+
+
+</resources>

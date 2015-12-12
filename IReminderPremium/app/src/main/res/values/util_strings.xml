@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="cat_id">id</string>
+    <string name="cat_type">type</string>
+    <string name="clock">clk</string>
+    
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Upcomming</item>
+        <item>Next 7 days</item>
+        <item>All tasks</item>
+        <item>Shopping</item>
+        <item>Personal</item>
+        <item>Birthdays</item>
+        <item>Bills</item>
+        <item>Holidays</item>
+        <item>Appointments</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <!--
+    <array name="nav_drawer_icons">
+        <item>@drawable/label_violet</item>
+        <item>@drawable/label_orange</item>
+        <item>@drawable/label_yellow</item>
+        <item>@drawable/label_brown</item>
+        <item>@drawable/label_light_blue</item>
+        <item>@drawable/label_magenta</item>
+        <item>@drawable/label_dark_yellow</item>
+        <item>@drawable/label_pink</item>
+        <item>@drawable/label_dark_green</item>
+    </array>
+    -->
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
+    </array>
+
+    <string-array name="category_list_titles">
+        <item>Personal</item>
+        <item>Birthdays</item>
+        <item>Bills</item>
+        <item>Shopping</item>
+        <item>Holidays</item>
+        <item>Appointments</item>
+        <item>Others</item>
+    </string-array>
+
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+    <array name="category_list_icons">
+        <item>@drawable/label_yellow</item>
+        <item>@drawable/label_brown</item>
+        <item>@drawable/label_light_blue</item>
+        <item>@drawable/label_magenta</item>
+        <item>@drawable/label_dark_yellow</item>
+        <item>@drawable/label_pink</item>
+        <item>@drawable/label_dark_green</item>
+    </array>
+
+    <string-array name="core_colors">
+        <item>#3F51B5</item>
+        <item>#3F51B5</item>
+        <item>#3F51B5</item>
+        <item>#0182a9</item>
+        <item>#c34900</item>
+        <item>#721aa2</item>
+        <item>#779801</item>
+        <item>#4a148c</item>
+        <item>#5D4037</item>
+        <item>#de8d00</item>
+    </string-array>
+
+</resources>

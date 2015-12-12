@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tools_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/top_drawer_bkgrnd"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <GridView
+        android:id="@+id/mainactivity_tools_grid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_drawer_bkgrnd"
+        android:numColumns="3" >
+    </GridView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_drawer_bkgrnd"
+        android:orientation="vertical" >
+
+        <SeekBar
+            android:id="@+id/seekbar_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_padding_2x"
+            android:layout_marginRight="@dimen/default_padding_2x"
+            android:layout_marginTop="10dp"
+            android:max="100"
+            android:padding="@dimen/default_padding"
+            android:progress="0"
+            android:progressBackgroundTint="@color/material_deep_teal_500"
+            android:progressTint="@color/white"
+            android:thumb="@drawable/ic_brush" />
+
+        <TextView
+            android:id="@+id/textview_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="-10dp"
+            android:text="@string/brush_size_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/grid_seekbar_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/top_drawer_bkgrnd"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <SeekBar
+            android:id="@+id/seekbar_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/default_padding_2x"
+            android:layout_marginRight="@dimen/default_padding_2x"
+            android:layout_marginTop="@dimen/default_padding_2x"
+            android:max="100"
+            android:padding="@dimen/default_padding"
+            android:progress="0"
+            android:progressBackgroundTint="@color/material_deep_teal_500"
+            android:progressTint="@color/white"
+            android:thumb="@drawable/ic_grid" />
+
+        <TextView
+            android:id="@+id/textview_seekbar_grid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingTop="-10dp"
+            android:text="@string/grid_size_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/nav_up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/top_drawer_bkgrnd"
+        android:src="@drawable/ic_navigation_arrow_drop_up" />
+
+</LinearLayout><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/layout/drawer_tools_layout.xml -->

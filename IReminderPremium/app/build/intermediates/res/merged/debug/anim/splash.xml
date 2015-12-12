@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/flaganim"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/ic_launcher"
+        android:duration="1000"
+        android:fromXDelta="0%p"
+        android:toXDelta="-100%p"/>
+    <item
+        android:drawable="@drawable/ic_launcher"
+        android:duration="1000"
+        android:fromXDelta="0%p"
+        android:toXDelta="-100%p"/>
+    <item
+        android:drawable="@drawable/ic_launcher"
+        android:duration="1000"
+        android:fromXDelta="0%p"
+        android:toXDelta="-100%p"/>
+
+</animation-list><!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/anim/splash.xml -->

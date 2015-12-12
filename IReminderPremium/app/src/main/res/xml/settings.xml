@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/settings" >
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_alarm"
+            android:persistent="true"
+            android:summary="@string/remind_summary"
+            android:title="@string/remind" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_notification"
+            android:persistent="true"
+            android:summary="@string/notification_summary"
+            android:title="@string/notification" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_sound"
+            android:persistent="true"
+            android:summary="@string/sound_summary"
+            android:title="@string/sound" />
+
+        <RingtonePreference
+            android:key="@string/key_ringtone"
+            android:persistent="true"
+            android:ringtoneType="alarm|notification"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:summary="@string/ringtone_summary"
+            android:title="@string/ringtone_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_vibrate"
+            android:persistent="true"
+            android:summary="@string/vibrate_summary"
+            android:title="@string/Vibrate" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_morning_alarm"
+            android:persistent="true"
+            android:summary="@string/morning_alarm_summary"
+            android:title="@string/morning_alarm_title" />
+
+        <Preference android:key="@string/key_morning_alarm_time" >
+        </Preference>
+    </PreferenceCategory>
+
+</PreferenceScreen>

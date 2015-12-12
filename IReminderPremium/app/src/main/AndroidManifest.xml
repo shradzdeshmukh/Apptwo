@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyno.reminder_premium"
+    android:versionCode="3"
+    android:versionName="1.2" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:name=".ui.IReminder"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <provider
+            android:name="com.cynozer.reminder_premium.contentproviders.TasksContentProvider"
+            android:authorities="@string/authority"
+            android:exported="true" >
+        </provider>
+
+        <!--
+             <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        -->
+        <activity
+            android:name=".ui.SplashActivity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.cyno.reminder_premium.ui.MainActivity"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name=".ui.AlarmActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/Theme.Dialog" />
+
+        <service android:name="com.cyno.reminder_premium.service.PremiumAlarmService" />
+
+        <receiver android:name="com.cyno.reminder.recievers.AlarmSetter" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.cyno.reminder.recievers.AlarmReciever" >
+        </receiver>
+
+        <activity
+            android:name="com.cyno.reminder_premium.ui.PlanDayActivity"
+            android:label="@string/title_activity_plan_day" >
+        </activity>
+        
+        
+        <activity
+            android:name="com.cyno.reminder_premium.ui.SettingsPrefActivity"
+            android:label="@string/title_activity_plan_day" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/util_strings.xml -->
+    <eat-comment/>
+    <string-array name="category_list_titles">
+         <item>личный</item>
+        <item>Дни рождения</item>
+        <item>банкноты</item>
+        <item>покупка товаров</item>
+        <item>каникулы</item>
+        <item>Назначения</item>
+        <item>другие</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>Предстоящие</item>
+        <item>Следующие 7 дней</item>
+        <item>Все задачи</item>
+        <item>личный</item>
+        <item>Дни рождения</item>
+        <item>банкноты</item>
+        <item>покупка товаров</item>
+        <item>каникулы</item>
+        <item>Назначения</item>
+        <item>другие</item>
+    </string-array>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string-array name="repeat_items">
+        <item>Каждый день</item>
+        <item>Каждую неделю</item>
+        <item>Каждый месяц</item>
+        <item>Каждый год</item>
+    </string-array>
+    <string name="Days_left">осталось, дней</string>
+    <string name="No">Нет</string>
+    <string name="Vibrate">звук</string>
+    <string name="Yes">Да</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"ОТКЛ."</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"ВКЛ."</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"Поиск"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">настройки</string>
+    <string name="add_task_title">Добавить задачу</string>
+    <string name="alarms">сигнализация</string>
+    <string name="any">Есть ли у вас</string>
+    <string name="any_more">У вас есть больше</string>
+    <string name="app_name">напоминание</string>
+    <string name="cancel">отменить</string>
+    <string name="color_category">Выберите цвет</string>
+    <string name="color_summary">Изменить цвет Категории этикетке</string>
+    <string name="color_title">Категории цвет</string>
+    <string name="create">создать</string>
+    <string name="customise_category">Настройка категории</string>
+    <string name="customize_dialot_title">Настройка категорию</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="daily_alarm_title">План дневной сигнализации</string>
+    <string name="date">дата:</string>
+    <string name="days_left">дней осталось:</string>
+    <string name="delete">удалять</string>
+    <string name="delete_all_repeat">Удалить все повторяющиеся задачи?</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/util_strings.xml -->
+    <eat-comment/>
+    <string name="desc_list_item_icon">Item Icon</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="description">заметка:</string>
+    <string name="done">сделано</string>
+    <string name="edit">редактировать</string>
+    <string name="enter_desc">заметка</string>
+    <string name="enter_description_error">Пожалуйста, введите заметку</string>
+    <string name="enter_title">название</string>
+    <string name="enter_title_error">Пожалуйста, введите название</string>
+    <string name="error">ошибка</string>
+    <string name="google_plus_signin">Войти через Google +</string>
+    <string name="hours_left">часов осталось</string>
+    <string name="hours_left_details">часов осталось:</string>
+    <string name="image">изображение</string>
+    <string name="login">Войти</string>
+    <string name="logout">Выход</string>
+    <string name="morning_alarm_summary">Показать спланировать день уведомления</string>
+    <string name="morning_alarm_title">План день</string>
+    <string name="name">название:</string>
+    <string name="new_task_alarm">У вас есть напоминания о новой !!</string>
+    <string name="no_play_services">Вы должны Google Play услуг войдите</string>
+    <string name="no_tasks">Нет задачи в списке</string>
+    <string name="notification">уведомление</string>
+    <string name="notification_summary">сигнализация</string>
+    <string name="notification_title">У вас есть новое задание</string>
+    <string name="overdue">Просроченной !!</string>
+    <string name="plan_day_msg">Нажмите, чтобы организовать свой день</string>
+    <string name="plan_day_title">Давайте планировать свой день</string>
+    <string name="progress">Пожалуйста, подождите</string>
+    <string name="remind">напоминать</string>
+    <string name="remind_summary">Напомнить для новой задачи</string>
+    <string name="repeat_dialog_msg">Вы хотите, чтобы повторить эту задачу?</string>
+    <string name="ringtone_summary">Выберите сигнал будильника</string>
+    <string name="ringtone_title">тон сигнала</string>
+    <string name="settings">настройки</string>
+    <string name="shop_hint">Что и хотят, чтобы делать покупки?</string>
+    <string name="signing_in">Вход в. Пожалуйста, подождите</string>
+    <string name="signing_out">Выход из. Пожалуйста, подождите</string>
+    <string name="skip_login">Пропустить Вход</string>
+    <string name="snooze">вздремнуть</string>
+    <string name="sound">звук</string>
+    <string name="sound_summary">Воспроизведение звука для новой задачи</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <string msgid="2869576371154716097" name="status_bar_notification_info_overflow">">999"</string>
+    <!-- From: file:/C:/Users/hp/AndroidStudioProjects/IReminderPremium/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="sync">Синхронизация</string>
+    <string name="sync_msg">Синхронизировано вашу задачу с помощью Google</string>
+    <string name="task_added">Напомню вам,</string>
+    <string name="task_completed">Поздравляю !! Выполненная задача</string>
+    <string name="task_delete">Задача удален</string>
+    <string name="task_pending">Задача отмечен как до</string>
+    <string name="time_back_selected">Время выбрано должно быть больше, чем текущее время</string>
+    <string name="toast_snooze">Я напомню вам позже</string>
+    <string name="today"> Cегодня? </string>
+    <string name="undone">Un урон</string>
+    <string name="update_all_repeat">Обновите все повторяющиеся задачи?</string>
+    <string name="vibrate_summary">Вибрация для новой задачи</string>
+</resources>

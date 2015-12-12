@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Promemoria</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="login">Accesso</string>
+    <string name="logout">Disconnessione</string>
+    <string name="signing_in">Accesso in. attendere prego</string>
+    <string name="signing_out">Disconnessione. attendere prego</string>
+    <string name="image">Immagine</string>
+    <string name="google_plus_signin">Entrare con Google Plus</string>
+    <string name="skip_login">Saltare accesso</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="enter_title">Titolo</string>
+    <string name="enter_desc">Nota</string>
+    <string name="add_task_title">Aggiungi Task</string>
+    <string name="create">Creare</string>
+    <string name="enter_title_error">Inserisci il titolo</string>
+    <string name="enter_description_error">Inserisci nota</string>
+    <string name="task_added">Vi ricordo</string>
+    <string name="time_back_selected">Tempo selezionato deve essere maggiore di ora corrente</string>
+    <string name="hours_left">Ore sinistra</string>
+    <string name="Days_left">Giorni sinistra</string>
+    <string name="overdue">Scaduto!!</string>
+    <string name="done">Fatto</string>
+    <string name="name">Titolo:</string>
+    <string name="date">Data:</string>
+    <string name="days_left">Giorni sinistra:</string>
+    <string name="description">Nota:</string>
+    <string name="hours_left_details">Ore sinistra:</string>
+    <string name="edit">Modifica</string>
+    <string name="delete">Cancellare</string>
+    <string name="snooze">Sonnellino</string>
+    <string name="task_completed">Complimenti !! Task completato</string>
+    <string name="task_delete">Compito cancellato</string>
+    <string name="task_pending">Compito contrassegnato come sospeso</string>
+    <string name="notification_title">Hai un nuova attività</string>
+    <string name="toast_snooze">Vi ricordo di nuovo presto</string>
+    <string name="new_task_alarm">Hai un nuovo promemoria !!</string>
+    <string name="alarms">Allarmi</string>
+    <string name="notification">Notifica</string>
+    <string name="notification_summary">Allarmi</string>
+    <string name="remind">Ricordare</string>
+    <string name="remind_summary">Ricordare per nuova attività</string>
+    <string name="sound">Suono</string>
+    <string name="sound_summary">Riproduci suono per nuova attività</string>
+    <string name="Vibrate">Vibrata</string>
+    <string name="vibrate_summary">Vibrazione per nuova attività</string>
+    <string name="no_tasks">Nessuna attività in lista</string>
+    <string name="settings">Impostazioni</string>
+    
+     <!-- new strings -->
+    <string name="undone">un Fatto</string>
+    <string name="no_play_services">Avete bisogno di google servizi di gioco per effettuare il login</string>
+    <string name="sync">sincronizzare</string>
+    <string name="sync_msg">Sincronizzato la tua attività con Google</string>
+    <string name="repeat_dialog_msg">Vuoi ripetere questo compito?</string>
+    <string name="Yes">sì</string>
+    <string name="No">No</string>
+    <string name="delete_all_repeat">Eliminare tutte le attività ricorrenti?</string>
+    <string name="update_all_repeat">Aggiornare tutte le attività ricorrenti?</string>
+    <string name="shop_hint">Che cosa u vuole fare shopping?</string>
+    <string name="plan_day_title">Andiamo a pianificare la vostra giornata</string>
+    <string name="plan_day_msg">Toccare per organizzare la vostra giornata</string>
+    <string name="morning_alarm_title">Pianificare un giorno</string>
+    <string name="morning_alarm_summary">Mostra piano di una notifica di giorno</string>
+    <string name="daily_alarm_title">Piano di tempo di giorno dell\'allarme</string>
+    <string name="ringtone_summary">Seleziona tono di allarme</string>
+    <string name="ringtone_title">tono allarme</string>
+    <string name="plan_day_birthday">Hai qualche compleanno oggi?</string>
+    <string name="plan_day_bills">Avete pagare le bollette?</string>
+    <string name="plan_day_appointments">Avete appuntamenti?</string>
+    <string name="plan_day_others">Nient\'altro</string>
+    <string name="plan_day_birthday_more">Avete più i compleanni?</string>
+    <string name="plan_day_bills_more">Dovete pagare le bollette più?</string>
+    <string name="plan_day_appointments_more">Avete qualche altro appuntamento?</string>
+    <string name="color_summary">Cambia il colore delle categorie dell\'etichetta</string>
+    <string name="color_title">Le categorie a colori</string>
+    <string name="color_category">Scegli colore</string>
+    <string name="customize_dialot_title">Personalizza il tuo categoria</string>
+    <string name="progress">Attendere prego</string>
+    <string name="customise_category">Personalizza le categorie</string>
+    <string name="any">Hai qualche</string>
+    <string name="today">oggi?</string>
+    <string name="any_more">Ne hai altre</string>
+    <string name="error">errore</string>
+    
+    <string-array name="repeat_items">
+        <item>Ogni giorno</item>
+        <item>Ogni settimana</item>
+        <item>Ogni mese</item>
+        <item>Ogni anno</item>
+    </string-array>
+    
+    
+</resources>

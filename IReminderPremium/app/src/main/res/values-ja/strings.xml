@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">リマインダー</string>
+    <string name="action_settings">[設定]</string>
+    <string name="login">ログイン</string>
+    <string name="logout">ログアウト</string>
+    <string name="signing_in">のログイン。お待ちください</string>
+    <string name="signing_out">ログアウト。お待ちください</string>
+    <string name="image">画像</string>
+    <string name="google_plus_signin">Googleと入力してプラス</string>
+    <string name="skip_login">ログインをスキップ</string>
+    <string name="cynozer">CYNOZER</string>
+    <string name="enter_title">タイトル</string>
+    <string name="enter_desc">注意</string>
+    <string name="add_task_title">タスクを追加する</string>
+    <string name="create">作る</string>
+    <string name="enter_title_error">タイトルを入力してください</string>
+    <string name="enter_description_error">ノートを入力してください。</string>
+    <string name="task_added">私はあなたを思い出させます</string>
+    <string name="time_back_selected">選択された時間が現在の時間よりも大きくなければならない</string>
+    <string name="hours_left">営業時間は、左</string>
+    <string name="Days_left">日左</string>
+    <string name="overdue">期限を過ぎた!!</string>
+    <string name="done">終わった</string>
+    <string name="name">タイトル:</string>
+    <string name="date">日付:</string>
+    <string name="days_left">日左:</string>
+    <string name="description">注意:</string>
+    <string name="hours_left_details">営業時間は、左:</string>
+    <string name="edit">編集</string>
+    <string name="delete">削除</string>
+    <string name="cancel">キャンセル</string>
+    <string name="snooze">居眠り</string>
+    <string name="task_completed">おめでとう!!タスクに完了</string>
+    <string name="task_delete">タスクが削除</string>
+    <string name="task_pending">タスクが保留中としてマークされた</string>
+    <string name="notification_title">あなたは、新しいタスクを持っている</string>
+    <string name="toast_snooze">私はすぐにあなたを戻って思い出させます</string>
+    <string name="new_task_alarm">新しいリマインダーを持っている！</string>
+    <string name="alarms">警報器</string>
+    <string name="notification">通知</string>
+    <string name="notification_summary">警報器</string>
+    <string name="remind">リマインド</string>
+    <string name="remind_summary">新しいタスクのリマインド</string>
+    <string name="sound">サウンド</string>
+    <string name="sound_summary">新しいタスクのためのサウンドを再生する</string>
+    <string name="Vibrate">サウンド</string>
+    <string name="vibrate_summary">新しいタスクのバイブ</string>
+    <string name="no_tasks">リストにはタスクん</string>
+    <string name="settings">[設定]</string>
+    
+     <!-- new strings -->
+    <string name="undone">Un Done</string>
+    <string name="no_play_services">You need google play services to login</string>
+    <string name="sync">Sync</string>
+    <string name="sync_msg">Synced your task with google</string>
+    <string name="title_activity_plan_day">PlanDayActivity</string>
+    <string name="repeat_dialog_msg">Do you want to repeat this task?</string>
+    <string name="Yes">Yes</string>
+    <string name="No">No</string>
+    <string name="delete_all_repeat">Delete all repeating tasks?</string>
+    <string name="update_all_repeat">Update all repeating tasks?</string>
+    <string name="shop_hint">What do u want to shop?</string>
+    <string name="plan_day_title">Lets plan your day</string>
+    <string name="plan_day_msg">Touch to organise your day</string>
+    <string name="morning_alarm_title">Plan a day</string>
+    <string name="morning_alarm_summary">Show plan a day notification</string>
+    <string name="daily_alarm_title">Plan day Alarm time</string>
+    <string name="ringtone_summary">Select alarm tone</string>
+    <string name="ringtone_title">Alarm tone</string>
+    <string name="plan_day_birthday">Do you have any birthdays today?</string>
+    <string name="plan_day_bills">Do you have pay any bills?</string>
+    <string name="plan_day_appointments">Do you have any appontments?</string>
+    <string name="plan_day_others">Anything else</string>
+    <string name="plan_day_birthday_more">Do you have any more birthdays?</string>
+    <string name="plan_day_bills_more">Do you have to pay any more bills?</string>
+    <string name="plan_day_appointments_more">Do you have any more appointment?</string>
+    <string name="color_summary">Change color of categories label</string>
+    <string name="color_title">Categories color</string>
+    <string name="color_category">Choose Color</string>
+    <string name="customize_dialot_title">Customize your category</string>
+    <string name="progress">Please wait</string>
+    <string name="customise_category">Customise categories</string>
+    <string name="any">Do you have any</string>
+    <string name="today"> today? </string>
+    <string name="any_more">Do you have any more</string>
+    <string name="error">Error</string>
+    
+    <string-array name="repeat_items">
+        <item>Everyday</item>
+        <item>Every Week</item>
+        <item>Every Month</item>
+        <item>Every Year</item>
+    </string-array>
+    
+    
+</resources>
