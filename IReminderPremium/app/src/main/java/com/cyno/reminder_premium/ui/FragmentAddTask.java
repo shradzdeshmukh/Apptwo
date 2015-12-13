@@ -33,7 +33,7 @@ import android.widget.Toast;
 public class FragmentAddTask extends DialogFragment implements OnClickListener , OnDateSetListener, OnTimeSetListener{
 
 
-	private EditText etTask;;
+	private EditText etTask;;;
 	private EditText etDescription;
 	private int taskId;
 	private boolean isUpdate;
