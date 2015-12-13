@@ -33,7 +33,7 @@ import android.widget.Toast;
 public class FragmentAddTask extends DialogFragment implements OnClickListener , OnDateSetListener, OnTimeSetListener{
 
 
-	private EditText etTaskTitle;
+	private EditText etTask;
 	private EditText etDescription;
 	private int taskId;
 	private boolean isUpdate;
@@ -69,7 +69,7 @@ public class FragmentAddTask extends DialogFragment implements OnClickListener ,
 
 		AlertDialog.Builder builder = new Builder(getActivity());
 		View rootView = View.inflate(getActivity(), R.layout.fragment_add_task , null);
-		etTaskTitle = (EditText)rootView.findViewById(R.id.et_task_title);
+		etTask = (EditText)rootView.findViewById(R.id.et_task_title);
 		etDescription = (EditText)rootView.findViewById(R.id.et_task_description);
 
 
@@ -77,7 +77,7 @@ public class FragmentAddTask extends DialogFragment implements OnClickListener ,
 			Cursor cur = getActivity().getContentResolver().query(TasksTable.CONTENT_URI, null, TasksTable.COL_TASK_ID + " = ? ", new String[]{String.valueOf(taskId)}, null);
 			if(cur != null){
 				if(cur.moveToNext()){
-					etTaskTitle.setText(cur.getString(cur.getColumnIndex(TasksTable.COL_TASK_NAME)));
+					etTask.setText(cur.getString(cur.getColumnIndex(TasksTable.COL_TASK_NAME)));
 					etDescription.setText(cur.getString(cur.getColumnIndex(TasksTable.COL_TASK_NOTE)));
 				}
 				cur.close();
@@ -121,11 +121,11 @@ public class FragmentAddTask extends DialogFragment implements OnClickListener ,
 	}
 
 	private boolean hasTitle(){
-		if(etTaskTitle != null){
-			if(etTaskTitle.getText().length() > 0)
+		if(etTask != null){
+			if(etTask.getText().length() > 0)
 				return true;
 		}
-		showError(etTaskTitle, getString(R.string.enter_title_error));
+		showError(etTask, getString(R.string.enter_title_error));
 		return false;
 	}
 
@@ -152,7 +152,7 @@ public class FragmentAddTask extends DialogFragment implements OnClickListener ,
 		@Override
 		public void onClick(View v) {
 			if(hasTitle()){
-				Task.getInstance().setTitle(etTaskTitle.getText().toString());
+				Task.getInstance().setTitle(etTask.getText().toString());
 				if(hasDescription())
 					Task.getInstance().setNote(etDescription.getText().toString());
 
@@ -160,7 +160,7 @@ public class FragmentAddTask extends DialogFragment implements OnClickListener ,
 
 				if(Build.VERSION.SDK_INT >= 14){
 					if(isShopping){
-						getFragmentManager().beginTransaction().replace(R.id.frame_container, new ShoppingFragment(taskId , etTaskTitle.getText().toString(),
+						getFragmentManager().beginTransaction().replace(R.id.frame_container, new ShoppingFragment(taskId , etTask.getText().toString(),
 								isUpdate , Task.getInstance().getiCategoryUID())).addToBackStack(ShoppingFragment.class.getSimpleName()).commit();
 						getDialog().dismiss();
 					}else{
