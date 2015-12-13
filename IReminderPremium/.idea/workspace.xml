@@ -2,16 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="57b8f217-5e27-4a52-a2ae-570b3ffc37d9" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\appcompat_v7_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\cardview_v7_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\design_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\nineoldandroids_2_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\recyclerview_v7_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\support_annotations_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\support_v4_23_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\hp\Desktop\Advanced Computing\Git\Apptwo\IReminderPremium\.idea\libraries\universal_image_loader_1_9_3.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <list id="c722683c-a05b-42d0-ab18-50f66882300e" name="New changelist" comment="" />
@@ -2329,7 +2319,13 @@
       <option name="project" value="LOCAL" />
       <updated>1449955653550</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="created scribble branch">
+      <created>1449985056566</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1449985056566</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
