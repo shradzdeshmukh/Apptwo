@@ -14,6 +14,7 @@
         <item>Next 7 days</item>
         <item>All tasks</item>
         <item>Shopping</item>
+        <item>Scribble</item>
         <item>Personal</item>
         <item>Birthdays</item>
         <item>Bills</item>
@@ -49,6 +50,7 @@
         <item>@drawable/nav_icon_selector</item>
         <item>@drawable/nav_icon_selector</item>
         <item>@drawable/nav_icon_selector</item>
+        <item>@drawable/nav_icon_selector</item>
     </array>
 
     <string-array name="category_list_titles">
@@ -71,6 +73,7 @@
         <item>@drawable/label_dark_yellow</item>
         <item>@drawable/label_pink</item>
         <item>@drawable/label_dark_green</item>
+        <item>@drawable/label_primary</item>
     </array>
 
     <string-array name="core_colors">
@@ -83,6 +86,7 @@
         <item>#779801</item>
         <item>#4a148c</item>
         <item>#5D4037</item>
+        <item>#de8d00</item>
         <item>#de8d00</item>
     </string-array>
 

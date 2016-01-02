@@ -84,6 +84,7 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
 
     private final String appPackageName = "com.cyno.drawme";
     private Calendar cal;
+    private int backGroundColor;
 
     @Override
     public void onDateSet(DatePicker view, int year, int monthOfYear,
@@ -160,6 +161,7 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
 
         ImageView ivNavUp = (ImageView)view. findViewById(R.id.nav_up);
         ivNavUp.setOnClickListener(this);
+        backGroundColor = getActivity().getResources().getColor(R.color.notes_yellow);
 
     }
 
@@ -219,15 +221,15 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
                 config.setStrokeColor(currentColor);
                 break;
             case ERASER:
-                config.setStrokeColor(getActivity().getResources().getColor(R.color.notes_yellow));
+                config.setStrokeColor(backGroundColor);
                 break;
             case UNDO:
-                premiumFeature();
-//			mDrawableView.undo();
+//                premiumFeature();
+                mDrawableView.undo();
                 break;
             case GRID:
-                premiumFeature();
-//			showGrid(mGridSpace,true );
+//                premiumFeature();
+                showGrid(mGridSpace,true );
                 break;
             case SAVE:
                 if(saveLocally()) {
@@ -246,16 +248,16 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
             case COLOR:
 //                premiumFeature();
                 if(Build.VERSION.SDK_INT >= 16)
-                    selectColorModern(false);
+                    selectColorModern(true,false);
                 else
-                    selectColorOld(false);
+                    selectColorOld(true,false);
                 break;
 
             case BACKGROUND:
                 if(Build.VERSION.SDK_INT >= 16)
-                    selectColorModern(false);
+                    selectColorModern(false , true);
                 else
-                    selectColorOld(false);
+                    selectColorOld(false,true);
                 break;
 
             default:
@@ -301,7 +303,7 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
     }
 
 
-    private void selectColorOld(final boolean setcolor) {
+    private void selectColorOld(final boolean setcolor , final boolean isBackground) {
         Builder builder = new Builder(getActivity());
         View view = View.inflate(getActivity(), R.layout.color_picker_old, null);
         builder.setView(view).setTitle(R.string.pick_color_title);
@@ -313,11 +315,16 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
 
             @Override
             public void onColorChanged(int c) {
-                currentColor = c;
+                if(!isBackground)
+                    currentColor = c;
                 if(setcolor)
                     config.setStrokeColor(currentColor);
+                else if(isBackground){
+                    backGroundColor = c;
+                    mDrawableView.setBackgroundColor(c);
+                }
                 dialog.cancel();
-                premiumFeature();
+//                premiumFeature();
             }
         });
 
@@ -394,7 +401,7 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
 
     private boolean saveLocally(){
 
-        Bitmap mBitmap = mDrawableView.obtainBitmap(getActivity().getResources().getColor(R.color.notes_yellow));
+        Bitmap mBitmap = mDrawableView.obtainBitmap(backGroundColor);
         ByteArrayOutputStream outStream = new ByteArrayOutputStream();
         mBitmap.compress(Bitmap.CompressFormat.PNG , 100 , outStream);
         byte[] data = outStream.toByteArray();
@@ -438,7 +445,7 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
         startActivity(emailIntent1);
     }
 
-    public void selectColorModern(final boolean setBrush){
+    public void selectColorModern(final boolean setBrush , final boolean isBackground){
         ColorPickerDialogBuilder
                 .with(getActivity())
                 .setTitle(getString(R.string.pick_color_title))
@@ -457,7 +464,12 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
                     public void onClick(DialogInterface dialog, int selectedColor, Integer[] allColors) {
                         if(setBrush)
                             config.setStrokeColor(selectedColor);
-                        premiumFeature();
+                        else if(isBackground){
+                            backGroundColor = selectedColor;
+                            mDrawableView.setBackgroundColor(selectedColor);
+                        }
+
+//                        premiumFeature();
                     }
                 })
                 .setNegativeButton(getString(android.R.string.cancel), new DialogInterface.OnClickListener() {
@@ -558,25 +570,25 @@ public class ScribbleFragment extends Fragment implements OnSeekBarChangeListene
             animateUp();
     }
 
-    private void premiumFeature(){
-        Builder mBuilder = new Builder(getActivity());
-        mBuilder.setTitle(getString(R.string.premium_title))
-                .setMessage(getString(R.string.premium_msg))
-                .setPositiveButton(getString(R.string.premium_btn), new DialogInterface.OnClickListener() {
-
-
-                    @Override
-                    public void onClick(DialogInterface dialog, int which) {
-                        try {
-                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
-                        } catch (android.content.ActivityNotFoundException anfe) {
-                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + appPackageName)));
-                        }
-
-                    }
-                }).setNegativeButton(android.R.string.cancel, null).show();
-
-    }
+//    private void premiumFeature(){
+//        Builder mBuilder = new Builder(getActivity());
+//        mBuilder.setTitle(getString(R.string.premium_title))
+//                .setMessage(getString(R.string.premium_msg))
+//                .setPositiveButton(getString(R.string.premium_btn), new DialogInterface.OnClickListener() {
+//
+//
+//                    @Override
+//                    public void onClick(DialogInterface dialog, int which) {
+//                        try {
+//                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=" + appPackageName)));
+//                        } catch (android.content.ActivityNotFoundException anfe) {
+//                            startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://play.google.com/store/apps/details?id=" + appPackageName)));
+//                        }
+//
+//                    }
+//                }).setNegativeButton(android.R.string.cancel, null).show();
+//
+//    }
 
 
     @Override

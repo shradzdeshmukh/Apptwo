@@ -142,7 +142,7 @@ public class FragmentPlanDay extends Fragment implements OnClickListener, Animat
 			}
 
 
-			FragmentAddTask frag = new FragmentAddTask(false , 0 , false);
+			FragmentAddTask frag = new FragmentAddTask(false , 0 , -1);
 			frag.show(getFragmentManager(), FragmentAddTask.class.getSimpleName());
 			break;
 

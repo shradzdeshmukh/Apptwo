@@ -18,6 +18,7 @@ import android.app.Dialog;
 import android.app.TimePickerDialog.OnTimeSetListener;
 import android.content.DialogInterface;
 import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Build;
 import android.os.Bundle;
@@ -33,6 +34,7 @@ import android.widget.Toast;
 public class FragmentAddTask extends DialogFragment implements OnClickListener , OnDateSetListener, OnTimeSetListener{
 
 
+	private  boolean isScribble;
 	private EditText etTask;;;
 	private EditText etDescription;
 	private int taskId;
@@ -45,12 +47,13 @@ public class FragmentAddTask extends DialogFragment implements OnClickListener ,
 	public FragmentAddTask() {
 	}
 
-	public FragmentAddTask(boolean isUpdate, int taskId, boolean isShopping) {
+	public FragmentAddTask(boolean isUpdate, int taskId, int type) {
 		this.isUpdate = isUpdate;
 		this.taskId = taskId;
 		cal = Calendar.getInstance();
 		taskCal = Calendar.getInstance();
-		this.isShopping=isShopping;
+		this.isShopping=type == TasksTable.TASK_TYPE_SHOPPING;
+		this.isScribble=type == TasksTable.TASK_TYPE_SCRIBBLE;
 	}
 
 	@Override
@@ -159,7 +162,11 @@ public class FragmentAddTask extends DialogFragment implements OnClickListener ,
 
 
 				if(Build.VERSION.SDK_INT >= 14){
-					if(isShopping){
+					if(isScribble){
+						getFragmentManager().beginTransaction().replace(R.id.frame_container, new ScribbleFragment())
+								.addToBackStack(ShoppingFragment.class.getSimpleName()).commit();
+						getDialog().dismiss();
+					}else if(isShopping){
 						getFragmentManager().beginTransaction().replace(R.id.frame_container, new ShoppingFragment(taskId , etTask.getText().toString(),
 								isUpdate , Task.getInstance().getiCategoryUID())).addToBackStack(ShoppingFragment.class.getSimpleName()).commit();
 						getDialog().dismiss();

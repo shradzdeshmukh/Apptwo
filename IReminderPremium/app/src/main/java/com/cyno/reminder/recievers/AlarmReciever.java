@@ -107,10 +107,12 @@ public class AlarmReciever extends BroadcastReceiver {
 		service.putExtra(IntentKeyConstants.KEY_TYPE_OF_ALARM, 1);//TODO change later
 		service.setAction(PremiumAlarmService.CREATE);
 		context.startService(service);
-		Intent mIntent =  new Intent(context , AlarmActivity.class) ;
-		mIntent.putExtra(IntentKeyConstants.KEY_TASK_ID, id);
-		mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-		context.startActivity(mIntent);
+
+
+//		Intent mIntent =  new Intent(context , AlarmActivity.class) ;
+//		mIntent.putExtra(IntentKeyConstants.KEY_TASK_ID, id);
+//		mIntent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//		context.startActivity(mIntent);
 	}
 
 	private Uri getAlarmTone(Context context){

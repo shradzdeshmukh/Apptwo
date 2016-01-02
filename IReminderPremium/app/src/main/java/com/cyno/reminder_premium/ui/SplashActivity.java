@@ -21,6 +21,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -35,7 +36,8 @@ import android.widget.TextView;
 
 public class SplashActivity extends Activity implements OnClickListener, AnimationListener {
 
-	private Animation fadeInAnimation ;
+    private static final String CATEGORIES_LOADED = "cat_loaded";
+    private Animation fadeInAnimation ;
 	private Animation fadeOutAnimation;
 	private View rootView;
 
@@ -102,24 +104,24 @@ public class SplashActivity extends Activity implements OnClickListener, Animati
 	@Override
 	public void onClick(View v) {
 		switch (v.getId()) {
-		//		case R.id.bt_splash_loginbutton:
-		//
-		//			Intent mIntent = new Intent(this , LoginActivity.class);
-		//			mIntent.setAction(LoginActivity.ACTION_SIGNIN);
-		//			startActivity(mIntent);
-		//			finish();
-		//			break;
+			//		case R.id.bt_splash_loginbutton:
+			//
+			//			Intent mIntent = new Intent(this , LoginActivity.class);
+			//			mIntent.setAction(LoginActivity.ACTION_SIGNIN);
+			//			startActivity(mIntent);
+			//			finish();
+			//			break;
 
-		//		case R.id.bt_splash_skip:
-		//			SharedPreferences.Editor edit = getSharedPreferences(StringConstants.PREFERENCE_PROFILE , MODE_PRIVATE).edit();
-		//			edit.putBoolean(StringConstants.SIGN_IN_SKIPPED, true);
-		//			edit.commit();
-		//			startActivity(new Intent(this , MainActivity.class));
-		//			finish();
-		//			break;
+			//		case R.id.bt_splash_skip:
+			//			SharedPreferences.Editor edit = getSharedPreferences(StringConstants.PREFERENCE_PROFILE , MODE_PRIVATE).edit();
+			//			edit.putBoolean(StringConstants.SIGN_IN_SKIPPED, true);
+			//			edit.commit();
+			//			startActivity(new Intent(this , MainActivity.class));
+			//			finish();
+			//			break;
 
-		default:
-			break;
+			default:
+				break;
 		}
 	}
 
@@ -146,36 +148,60 @@ public class SplashActivity extends Activity implements OnClickListener, Animati
 		if(animation == fadeInAnimation){
 			rootView.startAnimation(fadeOutAnimation);
 		}else{
-			Cursor mCursor = getContentResolver().query(CategoriesTable.CONTENT_URI,
+            String[] navMenuTitles = getResources().getStringArray(R.array.nav_drawer_items);
+            String []mColors = getResources().getStringArray(R.array.core_colors);
+
+            Cursor mCursor = getContentResolver().query(CategoriesTable.CONTENT_URI,
 					new String[]{CategoriesTable.COL_CATEGORY_ID},null, null, null);
 			if(mCursor != null){
 				if(mCursor.getCount() == 0){
-					String[] navMenuTitles = getResources().getStringArray(R.array.nav_drawer_items);
-					String []mColors = getResources().getStringArray(R.array.core_colors);
 					for(int index = 0 ; index < navMenuTitles.length; ++index){
 						ContentValues values = new ContentValues();
 						values.put(CategoriesTable.COL_CATEGORY_NAME, navMenuTitles[index]);
 						values.put(CategoriesTable.COL_CATEGORY_COLOR, mColors[index]);
 						switch (index) {
-						case 0:
-							values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_COMMING_UP);
-							break;
-						case 1:
-							values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_NEXT_SEVEN_DAYS);
-							break;
-						case 2:
-							values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_ALL_TASKS);
-							break;
-						case 3:
-							values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_SHOPPING);
-							break;
-						default:
-							values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_NORMAL);
-							break;
+							case 0:
+								values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_COMMING_UP);
+								break;
+							case 1:
+								values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_NEXT_SEVEN_DAYS);
+								break;
+							case 2:
+								values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_ALL_TASKS);
+								break;
+							case 3:
+								values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_SHOPPING);
+								break;
+							case 4:
+								values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_SCRIBBLE);
+								break;
+							default:
+								values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_NORMAL);
+								break;
 						}
 						getContentResolver().insert(CategoriesTable.CONTENT_URI, values);
+
 					}
-				}
+
+                    SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(this).edit();
+                    editor.putBoolean(CATEGORIES_LOADED , true);
+                    editor.commit();
+				}else{
+                    /*
+                    for app update, scribble category is not added
+                     */
+                    SharedPreferences pref = PreferenceManager.getDefaultSharedPreferences(this);
+                    if(!pref.getBoolean(CATEGORIES_LOADED , false)){
+                        ContentValues values = new ContentValues();
+                        values.put(CategoriesTable.COL_CATEGORY_NAME, navMenuTitles[4]);
+                        values.put(CategoriesTable.COL_CATEGORY_COLOR, mColors[4]);
+                        values.put(CategoriesTable.COL_CATEGORY_TYPE, TasksTable.TASK_TYPE_SCRIBBLE);
+                        getContentResolver().insert(CategoriesTable.CONTENT_URI, values);
+                        SharedPreferences.Editor editor = pref.edit();
+                        editor.putBoolean(CATEGORIES_LOADED , true);
+                        editor.commit();
+                    }
+                }
 				mCursor.close();
 			}
 			startActivity(new Intent(this , MainActivity.class));

@@ -67,8 +67,9 @@ public class CategoryListFragment extends DialogFragment implements OnItemClickL
 		//		mCatTitles = new ArrayList<>();
 		//		mCatIcons = new ArrayList<>();
 		Cursor mCursor = getActivity().getContentResolver().query(CategoriesTable.CONTENT_URI, null
-				, CategoriesTable.COL_CATEGORY_TYPE + " = ? OR " + CategoriesTable.COL_CATEGORY_TYPE + " = ?",
-				new String[]{String.valueOf(TasksTable.TASK_TYPE_SHOPPING) , String.valueOf(TasksTable.TASK_TYPE_NORMAL)},
+				, CategoriesTable.COL_CATEGORY_TYPE + " = ? OR " + CategoriesTable.COL_CATEGORY_TYPE + " = ? OR " + CategoriesTable.COL_CATEGORY_TYPE + " = ?",
+				new String[]{String.valueOf(TasksTable.TASK_TYPE_SHOPPING) , String.valueOf(TasksTable.TASK_TYPE_NORMAL),
+						String.valueOf(TasksTable.TASK_TYPE_SCRIBBLE)},
 				CategoriesTable.COL_CATEGORY_TYPE);
 
 		if(isUpdate){
@@ -89,8 +90,7 @@ public class CategoryListFragment extends DialogFragment implements OnItemClickL
 				catList.add(new CategoryItem(mCursor.getString(mCursor.getColumnIndex(CategoriesTable.COL_CATEGORY_NAME)),
 						mCursor.getString(mCursor.getColumnIndex(CategoriesTable.COL_CATEGORY_COLOR)),
 						mCursor.getInt(mCursor.getColumnIndex(CategoriesTable.COL_CATEGORY_ID)),
-						mCursor.getInt(mCursor.getColumnIndex(CategoriesTable.COL_CATEGORY_TYPE)),
-						catType == TasksTable.TASK_TYPE_SHOPPING));
+						mCursor.getInt(mCursor.getColumnIndex(CategoriesTable.COL_CATEGORY_TYPE))));
 				if(catID == mCursor.getInt(mCursor.getColumnIndex(CategoriesTable.COL_CATEGORY_ID)))
 					this.listPosition = mCursor.getPosition();
 
@@ -143,18 +143,22 @@ public class CategoryListFragment extends DialogFragment implements OnItemClickL
 	public void onItemClick(AdapterView<?> parent, View view, int position,
 			long id) {
 
-		CategoryItem item = (CategoryItem) view.getTag();
-		selectListPosition(position);
-		getDialog().dismiss();
+        CategoryItem item = (CategoryItem) view.getTag();
+        selectListPosition(position);
+        getDialog().dismiss();
 
-		Task.getInstance().setActive(true);
-		Task.getInstance().setCategoryLabel(item.getTitle());
-		Task.getInstance().setiCategoryUID(item.getId());
-		Task.getInstance().setiCategoryType(item.getType());
+        Task.getInstance().setActive(true);
+        Task.getInstance().setCategoryLabel(item.getTitle());
+        Task.getInstance().setiCategoryUID(item.getId());
+        Task.getInstance().setiCategoryType(item.getType());
 
-		FragmentAddTask frag = new FragmentAddTask(isUpdate , taskId , item.isShopping());
-		frag.show(getFragmentManager(), FragmentAddTask.class.getSimpleName());
-	}
+        if (item.getType() == TasksTable.TASK_TYPE_SCRIBBLE) {
+            getFragmentManager().beginTransaction().replace(R.id.frame_container , new ScribbleFragment()).commit();
+        } else {
+            FragmentAddTask frag = new FragmentAddTask(isUpdate, taskId, item.getType());
+            frag.show(getFragmentManager(), FragmentAddTask.class.getSimpleName());
+        }
+    }
 
 	private void selectListPosition(int position) {
 		mCatList.setItemChecked(position, true);

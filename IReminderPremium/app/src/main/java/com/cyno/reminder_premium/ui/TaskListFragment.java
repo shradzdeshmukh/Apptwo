@@ -94,16 +94,16 @@ public class TaskListFragment extends Fragment implements LoaderCallbacks<Cursor
 				super.handleMessage(msg);
 				EmptListFragment fragment;
 				switch (msg.what) {
-				case SHOW_EMPTY_VIEW:
-					//					if(getActivity() != null)
-					//						((MainActivity)getActivity()).displayView(MainActivity.EMPTY_FRAGMENT);
-					fragment =	new EmptListFragment();
-					getFragmentManager().beginTransaction()
-					.replace(R.id.frame_container, fragment, EmptListFragment.class.getSimpleName()).commit();
-					break;
+					case SHOW_EMPTY_VIEW:
+						//					if(getActivity() != null)
+						//						((MainActivity)getActivity()).displayView(MainActivity.EMPTY_FRAGMENT);
+						fragment =	new EmptListFragment();
+						getFragmentManager().beginTransaction()
+								.replace(R.id.frame_container, fragment, EmptListFragment.class.getSimpleName()).commit();
+						break;
 
-				default:
-					break;
+					default:
+						break;
 				}
 			}
 		};
@@ -117,7 +117,7 @@ public class TaskListFragment extends Fragment implements LoaderCallbacks<Cursor
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
+							 Bundle savedInstanceState) {
 		View rootView = inflater.inflate(R.layout.fragment_task_list, null);
 		mSubHeader =(TextView) rootView.findViewById(R.id.fragment_task_list_subheader);
 
@@ -158,27 +158,27 @@ public class TaskListFragment extends Fragment implements LoaderCallbacks<Cursor
 	@Override
 	public Loader<Cursor> onCreateLoader(int id, Bundle bundle) {
 		switch (type) {
-		case TasksTable.TASK_TYPE_COMMING_UP:
-			return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,  TasksTable.COL_TASK_DATE + " > ? AND " + TasksTable.COL_TASK_DATE + " < ? ", 
-					new String[]{String.valueOf(System.currentTimeMillis()),String.valueOf(System.currentTimeMillis()+lTwoDays)}, null);
-		case TasksTable.TASK_TYPE_NEXT_SEVEN_DAYS:
-			return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,  
-					TasksTable.COL_TASK_DATE + " > ? AND " + TasksTable.COL_TASK_DATE + " < ? ", 
-					new String[]{String.valueOf(System.currentTimeMillis()),String.valueOf(System.currentTimeMillis()+lOneWeek)}, null);
-		case TasksTable.TASK_TYPE_ALL_TASKS:
-			return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,  null,null, null);
+			case TasksTable.TASK_TYPE_COMMING_UP:
+				return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,  TasksTable.COL_TASK_DATE + " > ? AND " + TasksTable.COL_TASK_DATE + " < ? ",
+						new String[]{String.valueOf(System.currentTimeMillis()),String.valueOf(System.currentTimeMillis()+lTwoDays)}, null);
+			case TasksTable.TASK_TYPE_NEXT_SEVEN_DAYS:
+				return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,
+						TasksTable.COL_TASK_DATE + " > ? AND " + TasksTable.COL_TASK_DATE + " < ? ",
+						new String[]{String.valueOf(System.currentTimeMillis()),String.valueOf(System.currentTimeMillis()+lOneWeek)}, null);
+			case TasksTable.TASK_TYPE_ALL_TASKS:
+				return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,  null,null, null);
 
-		case TasksTable.TASK_TYPE_SHOPPING:
-			//		case GlobalConstants.TYPE_PERSONAL:
-			//		case GlobalConstants.TYPE_BILLS:
-			//		case GlobalConstants.TYPE_BIRTHDAY:
-			//		case GlobalConstants.TYPE_SHOPPING:
-			//		case GlobalConstants.TYPE_HOLIDAYS:
-			//		case GlobalConstants.TYPE_APPOINTMENTS:
-			//		case GlobalConstants.TYPE_OTHERS:
+			case TasksTable.TASK_TYPE_SHOPPING:
+				//		case GlobalConstants.TYPE_PERSONAL:
+				//		case GlobalConstants.TYPE_BILLS:
+				//		case GlobalConstants.TYPE_BIRTHDAY:
+				//		case GlobalConstants.TYPE_SHOPPING:
+				//		case GlobalConstants.TYPE_HOLIDAYS:
+				//		case GlobalConstants.TYPE_APPOINTMENTS:
+				//		case GlobalConstants.TYPE_OTHERS:
 
-		default:
-			return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,  TasksTable.COL_TASK_CATEGORY_UID + " = ? ", new String[]{String.valueOf(catID)}, null);
+			default:
+				return new CursorLoader(getActivity(),TasksTable.CONTENT_URI,null,  TasksTable.COL_TASK_CATEGORY_UID + " = ? ", new String[]{String.valueOf(catID)}, null);
 		}
 	}
 
@@ -276,31 +276,31 @@ public class TaskListFragment extends Fragment implements LoaderCallbacks<Cursor
 			@SuppressLint("NewApi")
 			@Override
 			public boolean onActionItemClicked(android.view.ActionMode mode,
-					MenuItem item) {
+											   MenuItem item) {
 				int pos = mLayoutManager.findFirstVisibleItemPosition();
 				switch (item.getItemId()) {
-				case R.id.menu_done:
-					Task.getInstance().doneInBulk(multiSelector.getSlectedIds() , getActivity().getContentResolver()  ,getActivity());
-					mAdapter.notifyDatasetChanged();
-					break;
-				case R.id.menu_undone:
-					Task.getInstance().undoneInBulk(multiSelector.getSlectedIds() , getActivity().getContentResolver(),getActivity());
-					mAdapter.notifyDatasetChanged();
-					break;
-				case R.id.menu_delete:
-					Task.getInstance().deleteInBulk(multiSelector.getSlectedIds() , getActivity().getContentResolver(),getActivity());
+					case R.id.menu_done:
+						Task.getInstance().doneInBulk(multiSelector.getSlectedIds() , getActivity().getContentResolver()  ,getActivity());
+						mAdapter.notifyDatasetChanged();
+						break;
+					case R.id.menu_undone:
+						Task.getInstance().undoneInBulk(multiSelector.getSlectedIds() , getActivity().getContentResolver(),getActivity());
+						mAdapter.notifyDatasetChanged();
+						break;
+					case R.id.menu_delete:
+						Task.getInstance().deleteInBulk(multiSelector.getSlectedIds() , getActivity().getContentResolver(),getActivity());
 
-					break;
-				case R.id.menu_sync:
-					for(String id : multiSelector.getSlectedIds()){
-						Task.addToGoogleCal(Task.getInstance().getTask(Integer.valueOf(id), getActivity()), getActivity());
-					}
-					Toast.makeText(getActivity(), getString(R.string.sync_msg), Toast.LENGTH_LONG).show();
+						break;
+					case R.id.menu_sync:
+						for(String id : multiSelector.getSlectedIds()){
+							Task.addToGoogleCal(Task.getInstance().getTask(Integer.valueOf(id), getActivity()), getActivity());
+						}
+						Toast.makeText(getActivity(), getString(R.string.sync_msg), Toast.LENGTH_LONG).show();
 
-					break;
+						break;
 
-				default:
-					break;
+					default:
+						break;
 				}
 				multiSelector.clearSelections();
 				multiSelector.setMultiSelectMode(false);
@@ -332,81 +332,80 @@ public class TaskListFragment extends Fragment implements LoaderCallbacks<Cursor
 
 		}else{
 
-			Log.d("tag", v.getTag().toString()+" tag");
 			switch (v.getId()) {
-			case R.id.iv_delete:
-				getActivity().getContentResolver().
-				delete(TasksTable.CONTENT_URI,TasksTable.COL_TASK_ID + " = ? ", 
-						new String[]{String.valueOf(v.getTag())});
-				Toast.makeText(getActivity(), getActivity().getString(R.string.task_delete),Toast.LENGTH_LONG).show();
-				Task.getInstance().setAlarm(getActivity());
-				getLoaderManager().restartLoader(LOADER_ID, null, this);
-				//				getActivity().sendBroadcast(new Intent(TaskListFragment.ACTION_REFRESH));
-				((MainActivity)getActivity()).refreshNavDrawer();
-				break;
-			case R.id.iv_edt:
-				CategoryListFragment fragment = new CategoryListFragment(true, Integer.valueOf(v.getTag().toString()));
-				fragment.show(getFragmentManager(), CategoryListFragment.class.getSimpleName());
-				break;
-			case R.id.iv_done:
-				boolean isDone = false;
-				Cursor cur = getActivity().getContentResolver().query(TasksTable.CONTENT_URI, new String[]{TasksTable.COL_TASK_STATUS},
-						TasksTable.COL_TASK_ID + " = ? ", new String[]{v.getTag().toString()}, null);
-				if(cur != null){
-					if(cur.moveToNext()){
-						isDone = Integer.valueOf(cur.getString(cur.getColumnIndex(TasksTable.COL_TASK_STATUS))) == Task.STATUS_DONE;
+				case R.id.iv_delete:
+					getActivity().getContentResolver().
+							delete(TasksTable.CONTENT_URI, TasksTable.COL_TASK_ID + " = ? ",
+									new String[]{String.valueOf(v.getTag())});
+					Toast.makeText(getActivity(), getActivity().getString(R.string.task_delete), Toast.LENGTH_LONG).show();
+					Task.getInstance().setAlarm(getActivity());
+					getLoaderManager().restartLoader(LOADER_ID, null, this);
+					//				getActivity().sendBroadcast(new Intent(TaskListFragment.ACTION_REFRESH));
+					((MainActivity) getActivity()).refreshNavDrawer();
+					break;
+				case R.id.iv_edt:
+					CategoryListFragment fragment = new CategoryListFragment(true, Integer.valueOf(v.getTag().toString()));
+					fragment.show(getFragmentManager(), CategoryListFragment.class.getSimpleName());
+					break;
+				case R.id.iv_done:
+					boolean isDone = false;
+					Cursor cur = getActivity().getContentResolver().query(TasksTable.CONTENT_URI, new String[]{TasksTable.COL_TASK_STATUS},
+							TasksTable.COL_TASK_ID + " = ? ", new String[]{v.getTag().toString()}, null);
+					if (cur != null) {
+						if (cur.moveToNext()) {
+							isDone = Integer.valueOf(cur.getString(cur.getColumnIndex(TasksTable.COL_TASK_STATUS))) == Task.STATUS_DONE;
+						}
+						cur.close();
 					}
-					cur.close();
-				}
-				ContentValues values = new ContentValues();
-				if(!isDone)
-					values.put(TasksTable.COL_TASK_STATUS, Task.STATUS_DONE);
-				else
-					values.put(TasksTable.COL_TASK_STATUS, Task.STATUS_PENDING);
+					ContentValues values = new ContentValues();
+					if (!isDone)
+						values.put(TasksTable.COL_TASK_STATUS, Task.STATUS_DONE);
+					else
+						values.put(TasksTable.COL_TASK_STATUS, Task.STATUS_PENDING);
 
-				Log.d("update", String.valueOf(v.getTag().toString()));
-				getActivity().getContentResolver().
-				update(TasksTable.CONTENT_URI, values, 
-						TasksTable.COL_TASK_ID + " = ? ", new String[]{String.valueOf(v.getTag().toString())});
-				if(!isDone)
-					Toast.makeText(getActivity(), getActivity().getString(R.string.task_completed),Toast.LENGTH_LONG).show();
-				else
-					Toast.makeText(getActivity(), getActivity().getString(R.string.task_pending),Toast.LENGTH_LONG).show();
+					Log.d("update", String.valueOf(v.getTag().toString()));
+					getActivity().getContentResolver().
+							update(TasksTable.CONTENT_URI, values,
+									TasksTable.COL_TASK_ID + " = ? ", new String[]{String.valueOf(v.getTag().toString())});
+					if (!isDone)
+						Toast.makeText(getActivity(), getActivity().getString(R.string.task_completed), Toast.LENGTH_LONG).show();
+					else
+						Toast.makeText(getActivity(), getActivity().getString(R.string.task_pending), Toast.LENGTH_LONG).show();
 
-				Task.getInstance().setAlarm(getActivity());
-				mAdapter.notifyDatasetChanged();
-				getLoaderManager().restartLoader(LOADER_ID, null, this);
-				//				getActivity().sendBroadcast(new Intent(TaskListFragment.ACTION_REFRESH));
+					Task.getInstance().setAlarm(getActivity());
+					mAdapter.notifyDatasetChanged();
+					getLoaderManager().restartLoader(LOADER_ID, null, this);
+					//				getActivity().sendBroadcast(new Intent(TaskListFragment.ACTION_REFRESH));
 
-				break;
+					break;
 
-			case R.id.iv_sync:
-				if(Task.addToGoogleCal(Task.getInstance().getTask(Integer.valueOf(v.getTag().toString()), getActivity()), getActivity()))	
-					Toast.makeText(getActivity(), getString(R.string.sync_msg), Toast.LENGTH_LONG).show();
-				//				getActivity().sendBroadcast(new Intent(TaskListFragment.ACTION_REFRESH));
-				break;
+				case R.id.iv_sync:
+					if (Task.addToGoogleCal(Task.getInstance().getTask(Integer.valueOf(v.getTag().toString()), getActivity()), getActivity()))
+						Toast.makeText(getActivity(), getString(R.string.sync_msg), Toast.LENGTH_LONG).show();
+					//				getActivity().sendBroadcast(new Intent(TaskListFragment.ACTION_REFRESH));
+					break;
 
-			default:
-				int cat = -1;
-				//				Cursor mCursor = getActivity().getContentResolver().query(TasksTable.CONTENT_URI,
-				//						new String[]{TasksTable.COL_TASK_CATEGORY_UID}, TasksTable.COL_TASK_ID + " = ? ",
-				//						new String[]{String.valueOf(v.getTag())}, null);
-				//				if(mCursor != null){
-				//					if(mCursor.moveToNext()){
-				//						cat = mCursor.getInt(mCursor.getColumnIndex(TasksTable.COL_TASK_CATEGORY_UID));
-				//					}
-				//					mCursor.close();
-				//				}
-				cat = Integer.valueOf(v.getTag(R.string.cat_type).toString());
-				if(cat == TasksTable.TASK_TYPE_SHOPPING){
-					FragmentShoppingDetails frag = new FragmentShoppingDetails(Integer.valueOf(v.getTag().toString()));
-					getFragmentManager().beginTransaction().replace(R.id.frame_container,frag, 
-							FragmentShoppingDetails.class.getSimpleName()).addToBackStack(FragmentShoppingDetails.class.getSimpleName()).commit();
-				}else{
-					FragmentDetails frag = new FragmentDetails((String)v.getTag());
-					frag.show(getFragmentManager(), FragmentDetails.class.getSimpleName());
-				}
-				break;
+				default:
+					int cat = -1;
+					//				Cursor mCursor = getActivity().getContentResolver().query(TasksTable.CONTENT_URI,
+					//						new String[]{TasksTable.COL_TASK_CATEGORY_UID}, TasksTable.COL_TASK_ID + " = ? ",
+					//						new String[]{String.valueOf(v.getTag())}, null);
+					//				if(mCursor != null){
+					//					if(mCursor.moveToNext()){
+					//						cat = mCursor.getInt(mCursor.getColumnIndex(TasksTable.COL_TASK_CATEGORY_UID));
+					//					}
+					//					mCursor.close();
+					//				}
+					cat = Integer.valueOf(v.getTag(R.string.cat_type).toString());
+					if (cat == TasksTable.TASK_TYPE_SHOPPING) {
+						FragmentShoppingDetails frag = new FragmentShoppingDetails(Integer.valueOf(v.getTag().toString()));
+						getFragmentManager().beginTransaction().replace(R.id.frame_container, frag,
+								FragmentShoppingDetails.class.getSimpleName()).addToBackStack(FragmentShoppingDetails.class.getSimpleName()).commit();
+					}else{
+						FragmentDetails frag = new FragmentDetails((String)v.getTag());
+						frag.show(getFragmentManager(), FragmentDetails.class.getSimpleName());
+					}
+					break;
 			}
 
 		}

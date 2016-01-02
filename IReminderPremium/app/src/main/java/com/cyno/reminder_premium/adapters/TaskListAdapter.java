@@ -2,13 +2,18 @@ package com.cyno.reminder_premium.adapters;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
+import android.content.res.Resources;
 import android.database.Cursor;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.Rect;
+import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.LayerDrawable;
 import android.graphics.drawable.ShapeDrawable;
 import android.graphics.drawable.shapes.OvalShape;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.CountDownTimer;
 import android.support.v4.util.TimeUtils;
@@ -23,6 +28,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.lang.ref.WeakReference;
 import java.text.DecimalFormat;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -30,6 +36,7 @@ import java.util.Date;
 import java.util.Locale;
 import java.util.concurrent.TimeUnit;
 
+import com.cyno.reminder.constants.GlobalConstants;
 import com.cyno.reminder_premium.R;
 import com.cyno.reminder.interfaces.ClickEventListners;
 import com.cyno.reminder.multiselect.MultiSelector;
@@ -56,6 +63,7 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 	}
 
 	public  class ViewHolder extends SwappingHolder implements OnClickListener, OnLongClickListener {
+		private final TextView tvTitleScribble;
 		public TextView tvTitle;
 		public TextView tvDate;
 		public TextView tvDaysLeft;
@@ -67,12 +75,17 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 		private ImageView ivEdit;
 		private ImageView ivDone;
 		private ImageView ivSync;
+		public TextView tvDateScribble;
+		public ImageView ivScribble;
+		public View taskView;
+		public View scribbleView;
 
 		private boolean isHour;
 
 		public ViewHolder(View view ,ClickEventListners clickListners) {
 			super(view , multiSelector);
 			tvTitle = (TextView) view.findViewById(R.id.tv_item_task_list_title);
+			tvTitleScribble = (TextView) view.findViewById(R.id.tv_item_task_list_title_scribble);
 			tvDate = (TextView) view.findViewById(R.id.tv_item_task_list_date);
 			tvDaysLeft = (TextView) view.findViewById(R.id.tv_item_task_list_days_left_number);
 			tvDaysLeftText= (TextView) view.findViewById(R.id.tv_item_task_list_daysleft);
@@ -81,6 +94,13 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 			ivEdit= (ImageView) view.findViewById(R.id.iv_edt);
 			ivDone = (ImageView) view.findViewById(R.id.iv_done);
 			ivSync= (ImageView) view.findViewById(R.id.iv_sync);
+
+			ivScribble= (ImageView) view.findViewById(R.id.image_list_item_scribble);
+
+			taskView = view.findViewById(R.id.swipe);
+			scribbleView = view.findViewById(R.id.scribble_item_root);
+			tvDateScribble = (TextView) view.findViewById(R.id.tv_item_task_list_date_scribble);
+
 
 			swipeLayout = (SwipeLayout) view.findViewById(R.id.swipe);
 			rootView = view.findViewById(R.id.rootview);
@@ -92,6 +112,7 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 			if(Build.VERSION.SDK_INT >= 11)
 				rootView.setOnLongClickListener(this);
 			rootView.setOnClickListener(this);
+			scribbleView.setOnClickListener(this);
 		}
 
 
@@ -122,6 +143,53 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 
 	@Override
 	public void onBindViewHolder(final ViewHolder viewHolder, final Cursor cursor) {
+        int category = Integer.valueOf(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_CATEGORY_TYPE)));
+
+        final int caseScribble = TasksTable.TASK_TYPE_SCRIBBLE;
+
+        switch (category){
+            case caseScribble:
+                setScribbleLayout(viewHolder , cursor);
+                break;
+            default:
+                setTaskView(viewHolder,cursor);
+                break;
+        }
+
+        viewHolder.rootView.setTag(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_ID)));
+        viewHolder.scribbleView.setTag(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_ID)));
+
+	}
+
+	private void setScribbleLayout(ViewHolder viewHolder, Cursor cursor) {
+		viewHolder.scribbleView.setVisibility(View.VISIBLE);
+		viewHolder.taskView.setVisibility(View.GONE);
+		viewHolder.tvTitleScribble.setText(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_NAME)));
+		Calendar cal = Calendar.getInstance();
+		cal.setTimeInMillis(Long.valueOf(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_DATE))));
+		SimpleDateFormat format  = new SimpleDateFormat(dateformat, Locale.getDefault());
+		viewHolder.tvDateScribble.setText(format.format(cal.getTime()));
+
+		byte[] data = cursor.getBlob(cursor.getColumnIndex(TasksTable.COL_SCRIBBLE));
+		Bitmap bmp = null;
+//		BitmapFactory.Options options = new BitmapFactory.Options();
+//		options.inMutable = false;
+//		bmp = BitmapFactory.decodeByteArray(data, 0, data.length, options);
+//		viewHolder.ivScribble.setImageBitmap(bmp);
+
+		loadBitmap(data, viewHolder.ivScribble);
+		viewHolder.scribbleView.setTag(R.string.cat_id , cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_CATEGORY_UID )));
+		viewHolder.scribbleView.setTag(R.string.cat_type, cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_CATEGORY_TYPE)));
+
+
+	}
+
+
+	private void setTaskView(final ViewHolder viewHolder , final Cursor cursor){
+
+		viewHolder.scribbleView.setVisibility(View.GONE);
+		viewHolder.taskView.setVisibility(View.VISIBLE);
+
 		viewHolder.swipeLayout.setShowMode(SwipeLayout.ShowMode.PullOut);
 
 		//        MyListItem myListItem = MyListItem.fromCursor(cursor);
@@ -161,21 +229,21 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 					public void onTick(long milliseconds) {
 						//						if(viewHolder.tvDaysLeftText.getText().equals(context.getString(R.string.Days_left)))
 						//							return;
-						
+
 						Log.d("tick", viewHolder.tvTitle.getText().toString() + " date = "+ viewHolder.tvDaysLeft.getText().toString());
 						if(!viewHolder.isHour)
 							return;
-						if(cursor.isClosed() || cursor.getInt(cursor.getColumnIndex(TasksTable.COL_TASK_STATUS)) == Task.STATUS_DONE || 
+						if(cursor.isClosed() || cursor.getInt(cursor.getColumnIndex(TasksTable.COL_TASK_STATUS)) == Task.STATUS_DONE ||
 								diff < 0 )
 							return;
 						long time = System.currentTimeMillis() - milliseconds;
 						Calendar cal = Calendar.getInstance();
 						cal.setTimeInMillis(time);
 						DecimalFormat df = new DecimalFormat("00");
-						viewHolder.tvDaysLeft.setText(""+String.format("%s:%s:%s", 
+						viewHolder.tvDaysLeft.setText(""+String.format("%s:%s:%s",
 								df.format(TimeUnit.MILLISECONDS.toHours( milliseconds)),
 								df.format(TimeUnit.MILLISECONDS.toMinutes( milliseconds)%60),
-								df.format(TimeUnit.MILLISECONDS.toSeconds(milliseconds) - 
+								df.format(TimeUnit.MILLISECONDS.toSeconds(milliseconds) -
 										TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes(milliseconds)))));
 
 					}
@@ -185,7 +253,7 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 				};
 				Count.start();
 			}else{
-				viewHolder.tvDaysLeft.setText(getDaysLeft(diff)); 
+				viewHolder.tvDaysLeft.setText(getDaysLeft(diff));
 			}
 			String color = cursor.getString(cursor.getColumnIndex(TasksTable.COL_CAT_COLOR));
 			if(color != null)
@@ -196,13 +264,13 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 		viewHolder.ivEdit.setTag(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_ID )));
 		viewHolder.ivDone.setTag(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_ID )));
 		viewHolder.rootView.setTag(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_ID )));
+
 		viewHolder.rootView.setTag(R.string.cat_id , cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_CATEGORY_UID )));
 		viewHolder.rootView.setTag(R.string.cat_type , cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_CATEGORY_TYPE)));
 
 		if(viewHolder.ivSync != null)
 			viewHolder.ivSync.setTag(cursor.getString(cursor.getColumnIndex(TasksTable.COL_TASK_ID )));
 		mItemManger.bind(viewHolder.itemView, cursor.getPosition());
-
 
 
 	}
@@ -250,4 +318,115 @@ public class TaskListAdapter extends RecyclerSwipeAdapter{
 
 		mView.setBackgroundDrawable(composite1);  
 	}
+
+
+	class BitmapWorkerTask extends AsyncTask<Integer, Void, Bitmap> {
+		private ImageView imageViewReference;
+		private byte[] data;
+
+		public BitmapWorkerTask(ImageView imageView, byte[] data) {
+			// Use a WeakReference to ensure the ImageView can be garbage collected
+//            imageViewReference = new WeakReference<ImageView>(imageView);
+			imageViewReference = imageView;
+			this.data = data;
+		}
+
+		// Decode image in background.
+		@Override
+		protected Bitmap doInBackground(Integer... params) {
+			return decodeSampledBitmap(data);
+		}
+
+		private Bitmap decodeSampledBitmap(byte[] data) {
+			Bitmap bmp = null;
+			BitmapFactory.Options options = new BitmapFactory.Options();
+
+			if(Build.VERSION.SDK_INT >= 11)
+				options.inMutable = false;
+			bmp = BitmapFactory.decodeByteArray(data, 0, data.length, options);
+			return bmp;
+		}
+
+//        @Override
+//        protected void onPreExecute() {
+//            super.onPreExecute();
+//            imageViewReference.setVisibility(View.GONE);
+//
+//        }
+
+		// Once complete, see if ImageView is still around and set bitmap.
+		@Override
+		protected void onPostExecute(Bitmap bitmap) {
+			if (isCancelled()) {
+				bitmap = null;
+			}
+
+			if (imageViewReference != null && bitmap != null) {
+//                final ImageView imageView = imageViewReference.get();
+				final BitmapWorkerTask bitmapWorkerTask =
+						getBitmapWorkerTask(imageViewReference);
+				if (this == bitmapWorkerTask && imageViewReference != null) {
+//                    imageViewReference.setVisibility(View.VISIBLE);
+					imageViewReference.setImageBitmap(bitmap);
+				}
+			}
+		}
+	}
+
+	static class AsyncDrawable extends BitmapDrawable {
+		private final WeakReference<BitmapWorkerTask> bitmapWorkerTaskReference;
+
+		public AsyncDrawable(Resources res, Bitmap bitmap,
+							 BitmapWorkerTask bitmapWorkerTask) {
+			super(res, bitmap);
+			bitmapWorkerTaskReference =
+					new WeakReference<BitmapWorkerTask>(bitmapWorkerTask);
+		}
+
+		public BitmapWorkerTask getBitmapWorkerTask() {
+			return bitmapWorkerTaskReference.get();
+		}
+	}
+
+	public void loadBitmap(byte[] data, ImageView imageView) {
+		Bitmap mDummyBitmap = null;
+		if (cancelPotentialWork(data, imageView)) {
+			final BitmapWorkerTask task = new BitmapWorkerTask(imageView , data);
+			final AsyncDrawable asyncDrawable =
+					new AsyncDrawable(context.getResources(), mDummyBitmap , task);
+			imageView.setImageDrawable(asyncDrawable);
+			task.execute();
+		}
+	}
+
+	public static boolean cancelPotentialWork(byte[] data, ImageView imageView) {
+		final BitmapWorkerTask bitmapWorkerTask = getBitmapWorkerTask(imageView);
+
+		if (bitmapWorkerTask != null) {
+			final byte[] bitmapData = bitmapWorkerTask.data;
+			// If bitmapData is not yet set or it differs from the new data
+			if (bitmapData.length == 0 || bitmapData != data) {
+				// Cancel previous task
+				bitmapWorkerTask.cancel(true);
+			} else {
+				// The same work is already in progress
+				return false;
+			}
+		}
+		// No task associated with the ImageView, or an existing task was cancelled
+		return true;
+	}
+
+	private static BitmapWorkerTask getBitmapWorkerTask(ImageView imageView) {
+		if (imageView != null) {
+			final Drawable drawable = imageView.getDrawable();
+			if (drawable instanceof AsyncDrawable) {
+				final AsyncDrawable asyncDrawable = (AsyncDrawable) drawable;
+				return asyncDrawable.getBitmapWorkerTask();
+			}
+		}
+		return null;
+	}
+
+
 }

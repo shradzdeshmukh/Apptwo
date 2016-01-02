@@ -221,6 +221,7 @@ public class Task {
 				else 
 					cal.add(Calendar.DAY_OF_MONTH, daysToAdd);
 				mTask.setTime(cal.getTimeInMillis());
+				mTask.setScribbleData(this.getScribbleData());
 				alTasks.add(mTask);
 
 			}
@@ -239,6 +240,7 @@ public class Task {
 						.withValue(TasksTable.COL_SHOPPING_COMPLETED,mTask.getShopDone())
 						.withValue(TasksTable.COL_TASK_REPEAT_TYPE, id)
 						.withValue(TasksTable.COL_TASK_UNIQUE_KEY, mTask.getUniqueKey())
+						.withValue(TasksTable.COL_SCRIBBLE, mTask.getScribbleData())
 						.build());
 			}
 			try {
@@ -262,6 +264,7 @@ public class Task {
 		values.put(TasksTable.COL_SHOPPING_COMPLETED, this.shopDone);
 		values.put(TasksTable.COL_CAT_COLOR, this.color);
 		values.put(TasksTable.COL_TASK_UNIQUE_KEY, id);
+		values.put(TasksTable.COL_SCRIBBLE, this.scribbleData);
 
 		if(id == NOT_IS_UPDATE)
 			context.getContentResolver().insert(TasksTable.CONTENT_URI, values);
@@ -289,6 +292,7 @@ public class Task {
 		this.note = null;
 		this.isRepeat = false;
 		this.iRepeatType = -1;
+		this.scribbleData = null;
 	}
 
 	public void updateTask(int taskId , ContentValues values , Context context){

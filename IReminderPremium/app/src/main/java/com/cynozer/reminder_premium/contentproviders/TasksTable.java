@@ -16,6 +16,8 @@ public class TasksTable
 
 	public static final int TASK_TYPE_SHOPPING = 50;
 
+	public static final int TASK_TYPE_SCRIBBLE = 51;
+
 	public static final int TASK_TYPE_NORMAL = 60;
 
 
@@ -39,8 +41,10 @@ public class TasksTable
 	public static final String COL_TASK_REPEAT_TYPE = "Rep";
 	public static final String COL_SHOPPING_COMPLETED = "ShopCompleted";
 	public static final String COL_CAT_COLOR = "Color";
+    public static final String COL_SCRIBBLE = "scribble";
 
-	private static final String DATABASE_CREATE = "create table " 
+
+    private static final String DATABASE_CREATE = "create table "
 			+ TABLE_TASKS
 			+ "(" 
 			+ COL_TASK_ID + " integer primary key autoincrement, "
@@ -56,14 +60,22 @@ public class TasksTable
 			+ COL_TASK_PHONE + " text , " 
 			+ COL_TASK_NOTE + " text ,  "
 			+ COL_SHOPPING_COMPLETED + " text, " 
-			+ COL_CAT_COLOR + " text " 
-			+ ");";
+			+ COL_CAT_COLOR + " text, "
+            + COL_SCRIBBLE + " blob  "
+            + ");";
+
 
 	public static void onCreate(SQLiteDatabase mDatabase)
 	{
 		mDatabase.execSQL(DATABASE_CREATE);
 	}
-	public static void onUpdate(SQLiteDatabase mDatabase){}
+
+	private static final java.lang.String DATABASE_UPGRADE_V2 = " ALTER TABLE "+TABLE_TASKS+
+			" ADD COLUMN "+COL_SCRIBBLE+" blob default '' ;";
+
+	public static void onUpdate(SQLiteDatabase mDatabase){
+		mDatabase.execSQL(DATABASE_UPGRADE_V2);
+	}
 
 
 }

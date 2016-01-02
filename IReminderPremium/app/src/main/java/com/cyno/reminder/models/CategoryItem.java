@@ -8,21 +8,24 @@ import android.database.Cursor;
 
 public class CategoryItem {
 
+
 	private String title;
 	private String icon;
 	private int id;
 	private boolean isShopping;
+	private boolean isScribble;
 	private int type;
 
 
 	public CategoryItem(){}
 
 
-	public CategoryItem(String title, String icon , int id ,  int type,boolean isShopping){
+	public CategoryItem(String title, String icon , int id ,  int type){
 		this.title = title;
 		this.icon = icon;
 		this.id = id;
-		this.isShopping = isShopping;
+		this.isShopping = type == TasksTable.TASK_TYPE_SHOPPING;
+		this.isScribble= type == TasksTable.TASK_TYPE_SCRIBBLE;
 		this.type = type;
 	}
 
@@ -67,7 +70,17 @@ public class CategoryItem {
 		return this.icon;
 	}
 
+	public void setIsShopping(boolean isShopping) {
+		this.isShopping = isShopping;
+	}
 
+	public boolean isScribble() {
+		return isScribble;
+	}
+
+	public void setIsScribble(boolean isScribble) {
+		this.isScribble = isScribble;
+	}
 
 	public void setTitle(String title){
 		this.title = title;

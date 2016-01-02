@@ -6,7 +6,7 @@ public class GlobalConstants {
 	public static final String DATABASE_NAME = "tasks.db";
 	public static final String BASE_PATH = "tasks.db";
 	
-	public static final int DATABASE_VERSION = 2;
+	public static final int DATABASE_VERSION = 3;
 	
 	/*
 	 * <item>Upcomming</item>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/default_padding_2x"
+    android:background="@color/white"
+    >
+
+    <ImageView
+        android:id="@+id/iv_details_scribble"
+        android:src="@drawable/splash"
+        android:scaleType="fitCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:padding="@dimen/default_padding"
+        android:layout_width="match_parent"
+        android:background="@drawable/title_gradient_background"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/details_tv_title"
+            android:layout_width="match_parent"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:textColor="@color/primary_dark"
+            android:text="Dinesh Khobragade"
+            android:textSize="@dimen/text_size_large" />
+
+        <TextView
+            android:id="@+id/details_tv_date"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:layout_gravity="bottom"
+            android:layout_height="wrap_content"
+            android:gravity="bottom"
+            android:text="28th march 1991"
+            android:textSize="@dimen/text_size_med" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_gravity="bottom"
+                android:gravity="bottom|left"
+                android:textSize="@dimen/text_size_med"
+                android:id="@+id/details_tv_days_left_key"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.35"
+                android:text="@string/days_left" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_gravity="bottom"
+                android:gravity="bottom|left"
+                android:textSize="@dimen/text_size_med"
+                android:id="@+id/details_tv_days_left_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.65"
+                android:text="5 days" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

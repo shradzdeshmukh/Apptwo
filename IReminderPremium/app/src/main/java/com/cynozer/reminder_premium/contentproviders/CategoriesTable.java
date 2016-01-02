@@ -34,7 +34,6 @@ public class CategoriesTable
 	}
 	public static void onUpdate(SQLiteDatabase mDatabase)
 	{
-		mDatabase.execSQL(DATABASE_CREATE);
 	}
 
 

@@ -1,7 +1,7 @@
 <resources>
 
     <dimen name="color_picker_old_height">60dp</dimen>
-    <dimen name="grid_default_height">300dp</dimen>
+    <dimen name="grid_default_height">30dp</dimen>
     <dimen name="scribble_item_ht">200dp</dimen>
 
 
